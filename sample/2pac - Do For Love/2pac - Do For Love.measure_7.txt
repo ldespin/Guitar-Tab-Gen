@@ -1,0 +1,2 @@
+bass:note:s4:f3
+wait:3840

@@ -1,0 +1,11 @@
+distorted0:rest
+bass:rest
+drums:note:42
+nfx:ghost_note
+wait:240
+drums:note:42
+nfx:ghost_note
+wait:120
+drums:note:42
+nfx:ghost_note
+wait:120

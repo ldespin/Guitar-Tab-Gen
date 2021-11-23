@@ -1,0 +1,13 @@
+distorted0:note:s1:f9
+nfx:let_ring
+bass:note:s5:f9
+drums:note:36
+wait:960
+distorted0:note:s1:f9
+nfx:let_ring
+wait:960
+distorted0:note:s1:f9
+nfx:let_ring
+bass:note:s5:f11
+drums:note:38
+wait:960

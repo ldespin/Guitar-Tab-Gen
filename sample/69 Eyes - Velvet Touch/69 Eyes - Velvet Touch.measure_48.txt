@@ -1,0 +1,10 @@
+leads:note:s6:f6
+nfx:let_ring
+clean0:rest
+distorted0:rest
+bass:note:s5:f6
+wait:1920
+leads:note:s6:f3
+nfx:let_ring
+bass:note:s5:f3
+wait:1920

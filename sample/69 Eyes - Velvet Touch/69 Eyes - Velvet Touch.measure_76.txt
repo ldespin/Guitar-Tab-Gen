@@ -1,0 +1,9 @@
+leads:note:s6:f6
+nfx:let_ring
+clean0:rest
+distorted0:rest
+bass:rest
+wait:1920
+leads:note:s6:f3
+nfx:let_ring
+wait:1920
