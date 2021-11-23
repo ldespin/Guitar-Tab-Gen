@@ -4,30 +4,10 @@ import re
 import matplotlib.pyplot as plt
 
 input_texts = []
-target_characters = []
-target_tokens = [':','\n']
-target_tokens_dig = [':','\n']
-for i in range(10):
-    target_tokens_dig.append(i)
+target_tokens = ['\n']
 
 data_path = "./sample"
 song_dir = os.listdir(data_path)
-
-def is_number(s):
-    try:
-        float(s)
-        return True
-    except ValueError:
-        pass
- 
-    try:
-        import unicodedata
-        unicodedata.numeric(s)
-        return True
-    except (TypeError, ValueError):
-        pass
- 
-    return False
 
 #input_texts will contain all measures but the last one, for every song, while the target_texts will be composed 
 #of all measures expect the first one. In this way, target text represents the measure following the input one.
@@ -41,15 +21,16 @@ for song in song_dir:
         input_texts.append(input_text)
         
         #we list all the characters that exist in our dataset
-        for char in input_text:
-            if char not in target_characters:
-                target_characters.append(char)
+        for token in input_text:
+            if token not in target_tokens:
+                target_tokens.append(token)
         
         for token in tokens:
             if token not in target_tokens:
                 target_tokens.append(token)
                 if not is_number(token):
                     target_tokens_dig.append(token)
+                    
 
 X = ["Characters","Tokens","Tokens + Digits"]
 Y = [len(target_characters), len(target_tokens), len(target_tokens_dig)]
