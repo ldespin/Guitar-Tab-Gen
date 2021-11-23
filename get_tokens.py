@@ -18,22 +18,21 @@ for song in song_dir:
     for i in range(1,len(measures)-1):
         #gathering of input texts
         input_file = open("{}/{}/{}.measure_{}.txt".format(data_path,song,song,i))
-        input_text = input_file.read()
-        tokens = input_file.split('\n')
+        input_text = list(input_file)
         input_texts.append(input_text)
 
         #gathering of target texts
         target_file = open("{}/{}/{}.measure_{}.txt".format(data_path,song,song,i+1))
-        target_text = target_file.read()
+        target_text = list(target_file)
         target_texts.append(target_text)
         
-        for token in tokens:
+        for token in input_text:
             if token not in target_tokens:
                 target_tokens.append(token)
         
     #we add the potentially new characters present in every last measure, 
     #as we didn't go through them in the previous loop.
-    for token in target_text.split('\n'):
+    for token in target_text:
         if token not in target_tokens:
             target_tokens.append(token)
 
