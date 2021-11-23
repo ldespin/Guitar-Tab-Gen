@@ -34,24 +34,11 @@ decoder_target_data = np.zeros(
 )
 
 for i, (input_text, target_text) in enumerate(zip(input_texts, target_texts)):
-    idx_token_input = 0
-    idx_token_target = 0
-    token_input=""
-    token_target=""
-    for char in input_text:
-        token_input+=char
-        if token_input in target_tokens:
-            encoder_input_data[i, idx_token_input, token_index[token_input]] = 1.0
-            token_input=""
-            idx_token_input+=1
-    for char in target_text:
+    for t,token_input in enumerate(input_text.split('\n')):
+        encoder_input_data[i, t, token_index[token_input]] = 1.0
+    for t,token_target in enumerate(target_text.split('\n')):
     # decoder_target_data is ahead of decoder_input_data by one timestep
-        token_target+=char
-        if token_target in target_tokens:
-            decoder_input_data[i, idx_token_target, token_index[token_target]] = 1.0
-            token_target=""
-            idx_token_input+=1
-        decoder_input_data[i, idx_token_target, token_index[char]] = 1.0
-        if idx_token_target>0:
-            decoder_target_data[i, idx_token_target-1, token_index[char]] = 1.0
+        decoder_input_data[i, t, token_index[token_target]] = 1.0
+        if t>0:
+            decoder_target_data[i, t-1, token_index[token_target]] = 1.0
 
