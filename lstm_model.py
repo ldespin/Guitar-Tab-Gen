@@ -1,5 +1,6 @@
 import numpy as np
 import keras
+import tensorflow as tf
 import os
 import re
 import matplotlib.pyplot as plt
@@ -7,6 +8,7 @@ from encode_data import encoder_input_data
 from encode_data import decoder_input_data
 from encode_data import decoder_target_data
 from encode_data import num_tokens
+import datetime
 
 batch_size = 64  # Batch size for training.
 epochs = 30  # Number of epochs to train for.
@@ -36,6 +38,10 @@ decoder_outputs = decoder_dense(decoder_outputs)
 # Define the model that will turn
 # `encoder_input_data` & `decoder_input_data` into `decoder_target_data`
 model = keras.Model([encoder_inputs, decoder_inputs], decoder_outputs)
+
+log_dir = "logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
+
 
 model.compile(
     optimizer="rmsprop", loss="categorical_crossentropy", metrics=["accuracy"]
