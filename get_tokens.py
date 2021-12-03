@@ -7,7 +7,7 @@ input_texts = []
 target_texts = []
 target_tokens = ['\n']
 
-data_path = "./sample"
+data_path = "./training_data"
 song_dir = os.listdir(data_path)
 
 

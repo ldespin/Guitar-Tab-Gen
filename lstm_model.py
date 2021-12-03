@@ -11,9 +11,8 @@ from encode_data import num_tokens
 import datetime
 
 batch_size = 64  # Batch size for training.
-epochs = 30  # Number of epochs to train for.
+epochs = 100  # Number of epochs to train for.
 latent_dim = 256  # Latent dimensionality of the encoding space.
-num_samples = 10000  # Number of samples to train on.
 
 
 # Define an input sequence and process it.
@@ -39,7 +38,7 @@ decoder_outputs = decoder_dense(decoder_outputs)
 # `encoder_input_data` & `decoder_input_data` into `decoder_target_data`
 model = keras.Model([encoder_inputs, decoder_inputs], decoder_outputs)
 
-log_dir = "logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+log_dir = "logs/fit_lstm/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
 tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
 
 
