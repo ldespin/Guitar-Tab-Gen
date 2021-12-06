@@ -51,6 +51,7 @@ model.fit(
     batch_size=batch_size,
     epochs=epochs,
     validation_split=0.2,
+    callbacks=[tensorboard_callback]
 )
 # Save model
 model.save("s2s")
