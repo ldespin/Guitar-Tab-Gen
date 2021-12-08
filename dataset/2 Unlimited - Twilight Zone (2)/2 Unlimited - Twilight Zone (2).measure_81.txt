@@ -1,0 +1,17 @@
+bass:rest
+pads:note:s4:f0
+nfx:tie
+drums:note:57
+drums:note:46
+drums:note:36
+leads:note:s1:f3
+wait:960
+pads:note:s4:f0
+nfx:tie
+wait:240
+pads:rest
+wait:1920
+pads:rest
+wait:480
+pads:rest
+wait:240

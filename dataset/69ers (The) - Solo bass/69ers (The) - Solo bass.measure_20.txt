@@ -1,0 +1,11 @@
+bass:note:s3:f3
+nfx:ghost_note
+drums:note:40
+wait:480
+drums:note:40
+wait:480
+bass:note:s5:f0
+drums:note:40
+wait:1920
+drums:note:39
+wait:960
