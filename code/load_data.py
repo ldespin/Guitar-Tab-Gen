@@ -2,7 +2,7 @@ import os
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-def load_data(data_path="../dataset", sample_size=100, prop_train_test=0.7, rand_state=None):
+def load_data(data_path="../sample", sample_size=100, prop_train_test=0.7, rand_state=None):
 
     rng=np.random.default_rng(rand_state)
     
