@@ -1,2 +1,0 @@
-distorted0:rest
-wait:3840

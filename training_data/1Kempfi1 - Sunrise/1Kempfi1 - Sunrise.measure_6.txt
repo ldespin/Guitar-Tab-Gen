@@ -1,9 +1,0 @@
-bass:note:s4:f0
-nfx:tie
-drums:note:0
-nfx:tie
-wait:960
-drums:note:85
-wait:1920
-drums:note:85
-wait:960

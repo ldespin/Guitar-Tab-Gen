@@ -1,3 +1,0 @@
-clean0:rest
-drums:rest
-wait:480

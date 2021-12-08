@@ -1,6 +1,0 @@
-distorted0:note:s5:f0
-distorted0:note:s6:f-2
-wait:4096
-wait:1024
-wait:512
-wait:128

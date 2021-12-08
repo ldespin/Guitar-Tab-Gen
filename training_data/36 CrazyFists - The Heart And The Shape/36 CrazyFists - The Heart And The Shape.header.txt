@@ -1,4 +1,0 @@
-unknown
-downtune:-2
-tempo:110
-start

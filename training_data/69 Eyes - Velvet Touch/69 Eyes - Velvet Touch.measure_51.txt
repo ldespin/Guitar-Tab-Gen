@@ -1,6 +1,0 @@
-leads:note:s6:f-2
-nfx:let_ring
-clean0:rest
-distorted0:rest
-bass:note:s5:f-2
-wait:3840

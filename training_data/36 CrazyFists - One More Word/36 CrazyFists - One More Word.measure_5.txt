@@ -1,5 +1,0 @@
-distorted0:rest
-bass:rest
-drums:note:46
-nfx:ghost_note
-wait:480
