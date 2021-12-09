@@ -2,7 +2,7 @@ import os
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-def load_data(data_path="../sample", sample_size=100, prop_train_test=0.7, rand_state=None):
+def load_data(data_path="../training_data", sample_size=100, prop_train_test=0.7, rand_state=None):
 
     rng=np.random.default_rng(rand_state)
     
@@ -40,7 +40,5 @@ def load_data(data_path="../sample", sample_size=100, prop_train_test=0.7, rand_
                 target_tokens.append(token)
 
         target_tokens = sorted(target_tokens)
-
-    input_train_texts, input_test_texts, target_train_texts, target_test_texts = train_test_split(input_texts, target_texts, train_size=prop_train_test, random_state=rand_state)
     
-    return input_train_texts, input_test_texts, target_train_texts, target_test_texts, target_tokens
+    return input_texts, target_texts, target_tokens
