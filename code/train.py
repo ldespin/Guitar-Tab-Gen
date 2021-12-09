@@ -1,4 +1,4 @@
-from load_data import load_data
+from load_training_data import load_data
 import encode_data
 import lstm_model
 import h5py
