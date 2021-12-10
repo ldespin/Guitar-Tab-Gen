@@ -47,5 +47,3 @@ def load_data(data_path="../training_data", sample_size=70, rand_state=None):
         tokens_file.close()
     
     return input_texts, target_texts, target_tokens
-
-load_data()

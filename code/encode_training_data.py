@@ -8,8 +8,14 @@ def encode_data_lstm(input_texts, target_texts, target_tokens):
     num_tokens = len(target_tokens)
     max_encoder_seq_length = max_tokens(input_texts)
     max_decoder_seq_length = max_tokens(target_texts)
-    token_index = dict([(token, i) for i, token in enumerate(target_tokens)])
 
+    max_encoder_file = open("../tokens/max_encoder_seq_length.txt","w")
+    max_encoder_file.write(str(max_encoder_seq_length))
+    max_encoder_file.close()
+
+    token_index = dict([(token, i) for i, token in enumerate(target_tokens)])
+    print(token_index)
+    
     encoder_input_data = np.zeros(
         (len(input_texts), max_encoder_seq_length, num_tokens), dtype="float32"
     )
