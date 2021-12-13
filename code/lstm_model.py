@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import datetime
 
 
-def train_lstm(encoder_input_data, decoder_input_data, decoder_target_data, num_tokens, batch_size=64, epochs=100, latent_dim=256):
+def train_lstm(encoder_input_data, decoder_input_data, decoder_target_data, num_tokens, batch_size=64, epochs=30, latent_dim=256):
 
     # Define an input sequence and process it.
     encoder_inputs = keras.Input(shape=(None, num_tokens))
