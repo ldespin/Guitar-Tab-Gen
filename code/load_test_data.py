@@ -5,7 +5,6 @@ from sklearn.model_selection import train_test_split
 def load_data(data_path="../test_data"):
 
     song_dir = os.listdir(data_path)
-
     input_texts = []
     target_texts = []
 

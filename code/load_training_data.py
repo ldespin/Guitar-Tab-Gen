@@ -2,21 +2,15 @@ import os
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-def load_data(data_path="../training_data", sample_size=70, rand_state=None):
+def load_data(data_path="../training_data"):
 
-    rng=np.random.default_rng(rand_state)
-    
     song_dir = os.listdir(data_path)
-    if sample_size>len(song_dir):
-        sample_size=len(song_dir)
 
     input_texts = []
     target_texts = []
     target_tokens = []
 
-    song_dir_sample = rng.choice(song_dir, sample_size)
-
-    for song in song_dir_sample:
+    for song in song_dir:
         measures = os.listdir("{}/{}".format(data_path,song))
         for i in range(1,len(measures)-1):
             #gathering of input texts
@@ -45,5 +39,6 @@ def load_data(data_path="../training_data", sample_size=70, rand_state=None):
         for token in target_tokens:
             tokens_file.write(token)
         tokens_file.close()
+
     
     return input_texts, target_texts, target_tokens
