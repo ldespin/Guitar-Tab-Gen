@@ -40,8 +40,8 @@ def train_lstm(encoder_input_data, decoder_input_data, decoder_target_data, num_
         optimizer="rmsprop", loss="categorical_crossentropy", metrics=["accuracy"]
     )
     model.fit(
-        [encoder_input_data,
-        decoder_target_data],
+        [encoder_input_data, decoder_input_data],
+        decoder_target_data,
         batch_size=batch_size,
         epochs=epochs,
         validation_split=0.2,
