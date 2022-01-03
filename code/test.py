@@ -6,7 +6,7 @@ if __name__=="__main__":
     input_texts, target_texts, headers = load_test()
     tokens = list(open("../tokens/tokens_list.txt"))
     max_encoder_seq_length = int(list(open("../tokens/max_encoder_seq_length.txt"))[0])
-    encoded_inputs = vectorize_data.vectorize_training(input_texts, tokens, max_encoder_seq_length)
+    encoded_inputs = vectorize_data.vectorize_test(input_texts, tokens, max_encoder_seq_length)
     model = keras.models.load_model("s2s")
     generated_data_encoded = model.predict([encoded_inputs])
     generated_data_decoded = vectorize_data.unvectorize_test(generated_data_encoded, tokens)
