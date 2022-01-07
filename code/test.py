@@ -14,7 +14,7 @@ if __name__=="__main__":
     encoder_inputs = model.input[0]  # input_1
     encoder_outputs, state_h_enc, state_c_enc = model.layers[2].output  # lstm_1
     encoder_states = [state_h_enc, state_c_enc]
-    encoder_model = keras.Model(encoder_inputs, encoder_states)
+    encoder_model = keras.Model(encoder_inputs, encoder_states, name="encoder")
 
     decoder_inputs = model.input[1]  # input_2
     decoder_state_input_h = keras.Input(shape=(256,))
@@ -29,7 +29,7 @@ if __name__=="__main__":
     decoder_dense = model.layers[4]
     decoder_outputs = decoder_dense(decoder_outputs)
     decoder_model = keras.Model(
-        [decoder_inputs] + decoder_states_inputs, [decoder_outputs] + decoder_states
+        [decoder_inputs] + decoder_states_inputs, [decoder_outputs] + decoder_states, name="decoder"
     )
 
     # Reverse-lookup token index to decode sequences back to
