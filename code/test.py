@@ -69,8 +69,8 @@ if __name__=="__main__":
         return decoded_sentence
 
     for seq_index in range(len(encoded_inputs)):
-        input_seq = encoded_inputs[seq_index]
-        print(input_seq)
+        input_seq = encoded_inputs[seq_index:seq_index+1]
+        print(input_seq.shape)
         decoded_measure = decode_sequence(input_seq)
         print("-")
         print("Input measure:", input_texts[seq_index])
