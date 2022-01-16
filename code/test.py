@@ -4,7 +4,7 @@ from tensorflow import keras
 import numpy as np
 
 if __name__=="__main__":
-    input_texts, target_texts, headers = load_test()
+    input_texts, target_texts, headers = load_test("../training_data")
     tokens = list(open("../tokens/tokens_list.txt"))
     num_tokens = len(tokens)
     max_encoder_seq_length = int(list(open("../tokens/max_encoder_seq_length.txt"))[0])
@@ -34,11 +34,14 @@ if __name__=="__main__":
 
     # Reverse-lookup token index to decode sequences back to
     # something readable.
-    reverse_token_index = dict((i, token) for token, i in enumerate(tokens))
+    reverse_token_index = dict((i, token) for i, token in enumerate(tokens))
 
-    def decode_sequence(input_seq):
+    def decode_sequence(input_seq,dur_max):
         # Encode the input as state vectors.
         states_value = encoder_model.predict(input_seq)
+
+        # Duration of the generated mesure
+        gen_dur = 0
 
         # Generate empty target sequence of length 1.
         target_seq = np.zeros((1, 1, num_tokens))
@@ -53,11 +56,23 @@ if __name__=="__main__":
             # Sample a token
             sampled_token_index = np.argmax(output_tokens[0, -1, :])
             sampled_token = reverse_token_index[sampled_token_index]
-            decoded_sentence += sampled_token
+            
+            #We control the duration of the measure, comparing it to the duration of the input one.
+            if "wait" in sampled_token:
+                #If we generate a wait token that doesn't reach the max duration, we add it to the generated measure
+                gen_dur+=int(sampled_token.split(':')[1])
+                if gen_dur<=dur_max:
+                    decoded_sentence += sampled_token
+                #Otherwise, we add a wait token that will end the measure (potentially wait:0)
+                else:
+                    decoded_sentence+=f"wait:{dur_max-gen_dur}\n"
+                    return decoded_sentence
+            else:
+                decoded_sentence += sampled_token
 
             # Exit condition: either hit max length
             # or find stop character.
-            if sampled_token == "\n" or len(decoded_sentence) > max_encoder_seq_length:
+            if len(decoded_sentence) > max_encoder_seq_length:
                 stop_condition = True
 
             # Update the target sequence (of length 1).
@@ -68,10 +83,17 @@ if __name__=="__main__":
             states_value = [h, c]
         return decoded_sentence
 
-    for seq_index in range(len(encoded_inputs)):
+    def get_duration(sequence):
+        dur = 0
+        for line in sequence:
+            if "wait" in line:
+                dur+=int(line.split(':')[1])
+        return dur
+
+    for seq_index in range(1):
         input_seq = encoded_inputs[seq_index:seq_index+1]
-        print(input_seq.shape)
-        decoded_measure = decode_sequence(input_seq)
+        dur= get_duration(input_texts[seq_index])
+        decoded_measure = decode_sequence(input_seq,dur)
         print("-")
         print("Input measure:", input_texts[seq_index])
         print("Decoded measure:", decoded_measure)

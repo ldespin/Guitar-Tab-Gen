@@ -2,12 +2,14 @@ import os
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-def load_training(data_path="../training_data"):
+def load_training(data_path="../training_data",guitar_only="on"):
 
     song_dir = os.listdir(data_path)
 
     input_texts = []
     target_texts = []
+    input_texts_guitar = []
+    target_texts_guitar = []
     target_tokens = []
 
     for song in song_dir:
@@ -16,22 +18,37 @@ def load_training(data_path="../training_data"):
             #gathering of input texts
             input_file = open("{}/{}/{}.measure_{}.txt".format(data_path,song,song,i))
             input_text = list(input_file)
+            input_text_guitar = []
             input_texts.append(input_text)
 
             #gathering of target texts
             target_file = open("{}/{}/{}.measure_{}.txt".format(data_path,song,song,i+1))
             target_text = list(target_file)
+            target_text_guitar = []
             target_texts.append(target_text)
             
             for token in input_text:
-                if token not in target_tokens:
-                    target_tokens.append(token)
-        
-        #we add the potentially new characters present in every last measure, 
-        #as we didn't go through them in the previous loop.
-        for token in target_text:
-            if token not in target_tokens:
-                target_tokens.append(token)
+                if guitar_only=="on" and "bass" not in token and "drums" not in token:
+                    if token not in target_tokens:
+                        target_tokens.append(token)
+                    input_text_guitar.append(token)
+
+                elif guitar_only=="off":
+                    if token not in target_tokens:
+                        target_tokens.append(token)
+            
+            for token in target_text:
+                if guitar_only=="on" and "bass" not in token and "drums" not in token:
+                    if token not in target_tokens:
+                        target_tokens.append(token)
+                    target_text_guitar.append(token)
+
+                elif guitar_only=="off":
+                    if token not in target_tokens:
+                        target_tokens.append(token)
+            
+            input_texts_guitar.append(input_text_guitar)
+            target_texts_guitar.append(target_text_guitar)
 
         target_tokens = sorted(target_tokens)
 
@@ -40,10 +57,11 @@ def load_training(data_path="../training_data"):
             tokens_file.write(token)
         tokens_file.close()
 
-    
+    if guitar_only=="on":
+        return input_texts_guitar, target_texts_guitar, target_tokens
     return input_texts, target_texts, target_tokens
 
-def load_test(data_path="../test_data"):
+def load_test(data_path="../test_data",guitar_only="on"):
 
     song_dir = os.listdir(data_path)
     input_texts = []
