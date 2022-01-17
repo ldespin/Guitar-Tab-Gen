@@ -77,10 +77,10 @@ def load_test(data_path="../test_data",guitar_only="on"):
             #gathering of input texts
             
             input_file = open("{}/{}/{}.measure_{}.txt".format(data_path,song,song,i))
-            input_text = list(input_file)
+            input_text = list(input_file)   
             input_texts.append(input_text)
             input_text_guitar = []
-            for token in target_text:
+            for token in input_text:
                 if guitar_only=="on" and "bass" not in token and "drums" not in token:
                     input_text_guitar.append(token)
 
@@ -96,5 +96,9 @@ def load_test(data_path="../test_data",guitar_only="on"):
 
             headers.append(header)
 
+        input_texts_guitar.append(input_text_guitar)
+        target_texts_guitar.append(target_text_guitar)
 
+    if guitar_only=="on":
+        return input_texts_guitar, target_texts_guitar, headers
     return input_texts, target_texts, headers
