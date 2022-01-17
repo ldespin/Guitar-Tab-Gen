@@ -62,7 +62,7 @@ if __name__=="__main__":
                 #If we generate a wait token that doesn't reach the max duration, we add it to the generated measure
                 gen_dur=int(sampled_token.split(':')[1])
                 total_gen_dur+=gen_dur
-                if total_gen_dur<=dur_max:
+                if total_gen_dur<dur_max:  
                     decoded_sentence += sampled_token
                 #Otherwise, we add a wait token that will end the measure (potentially wait:0)         
                 else:
@@ -97,6 +97,6 @@ if __name__=="__main__":
         decoded_measure = decode_sequence(input_seq,dur)
         print("-")
         print("Input measure:", input_texts[seq_index])
-        print("Decoded measure:", decoded_measure)
+        print("Decoded measure:", list(decoded_measure))
 
 
