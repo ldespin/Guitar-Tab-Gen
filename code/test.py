@@ -41,7 +41,7 @@ if __name__=="__main__":
         states_value = encoder_model.predict(input_seq)
 
         # Duration of the generated mesure
-        gen_dur = 0
+        total_gen_dur = 0
 
         # Generate empty target sequence of length 1.
         target_seq = np.zeros((1, 1, num_tokens))
@@ -60,12 +60,13 @@ if __name__=="__main__":
             #We control the duration of the measure, comparing it to the duration of the input one.
             if "wait" in sampled_token:
                 #If we generate a wait token that doesn't reach the max duration, we add it to the generated measure
-                gen_dur+=int(sampled_token.split(':')[1])
-                if gen_dur<=dur_max:
+                gen_dur=int(sampled_token.split(':')[1])
+                total_gen_dur+=gen_dur
+                if total_gen_dur<=dur_max:
                     decoded_sentence += sampled_token
-                #Otherwise, we add a wait token that will end the measure (potentially wait:0)
+                #Otherwise, we add a wait token that will end the measure (potentially wait:0)         
                 else:
-                    decoded_sentence+=f"wait:{dur_max-gen_dur}\n"
+                    decoded_sentence+=f"wait:{dur_max-total_gen_dur}\n"
                     return decoded_sentence
             else:
                 decoded_sentence += sampled_token
