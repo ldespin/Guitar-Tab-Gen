@@ -104,6 +104,6 @@ if __name__=="__main__":
         decoded_measure = decode_sequence(input_seq,dur)
         print("-")
         print("Input measure:", input_texts[seq_index])
-        print("Decoded measure:", list(decoded_measure))
+        print("Decoded measure:", decoded_measure)
 
 
