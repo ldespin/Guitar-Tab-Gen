@@ -35,6 +35,7 @@ if __name__=="__main__":
     # Reverse-lookup token index to decode sequences back to
     # something readable.
     reverse_token_index = dict((i, token) for i, token in enumerate(tokens))
+    token_index = dict((token, i) for i, token in enumerate(tokens))
 
     def decode_sequence(input_seq,dur_max):
         # Encode the input as state vectors.
@@ -54,8 +55,14 @@ if __name__=="__main__":
             output_tokens, h, c = decoder_model.predict([target_seq] + states_value)
 
             # Sample a token
+
+            # Ban wait:240
+            idx_wait_240 = token_index["wait:240\n"]
+            output_tokens[0,-1,idx_wait_240]=0
+
             sampled_token_index = np.argmax(output_tokens[0, -1, :])
             sampled_token = reverse_token_index[sampled_token_index]
+
             
             #We control the duration of the measure, comparing it to the duration of the input one.
             if "wait" in sampled_token:
