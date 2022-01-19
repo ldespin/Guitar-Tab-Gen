@@ -37,6 +37,22 @@ if __name__=="__main__":
     reverse_token_index = dict((i, token) for i, token in enumerate(tokens))
     token_index = dict((token, i) for i, token in enumerate(tokens))
 
+    def get_duration(sequence):
+        dur = 0
+        for line in sequence:
+            if "wait" in line:
+                dur+=int(line.split(':')[1])
+        return dur
+
+    def sample(preds, temperature=1.0):
+        # helper function to sample an index from a probability array
+        preds = np.asarray(preds).astype('float64')
+        preds = np.log(preds) / temperature
+        exp_preds = np.exp(preds)
+        preds = exp_preds / np.sum(exp_preds)
+        probas = np.random.multinomial(1, preds, 1)
+        return np.argmax(probas)
+
     def decode_sequence(input_seq,dur_max):
         # Encode the input as state vectors.
         states_value = encoder_model.predict(input_seq)
@@ -57,10 +73,10 @@ if __name__=="__main__":
             # Sample a token
 
             # Ban wait:240
-            idx_wait_240 = token_index["wait:240\n"]
-            output_tokens[0,-1,idx_wait_240]=0
+            #idx_wait_240 = token_index["wait:240\n"]
+            #output_tokens[0,-1,idx_wait_240]=0
 
-            sampled_token_index = np.argmax(output_tokens[0, -1, :])
+            sampled_token_index = np.sample(output_tokens[0, -1, :])
             sampled_token = reverse_token_index[sampled_token_index]
 
             
@@ -91,12 +107,6 @@ if __name__=="__main__":
             states_value = [h, c]
         return decoded_sentence
 
-    def get_duration(sequence):
-        dur = 0
-        for line in sequence:
-            if "wait" in line:
-                dur+=int(line.split(':')[1])
-        return dur
 
     for seq_index in range(1):
         input_seq = encoded_inputs[seq_index:seq_index+1]
