@@ -54,6 +54,9 @@ if __name__=="__main__":
         return np.argmax(probas)
 
     def decode_sequence(input_seq,dur_max):
+        #Check if the laste generated token as a wait token
+        wait_generated = False
+
         # Encode the input as state vectors.
         states_value = encoder_model.predict(input_seq)
 
@@ -72,9 +75,12 @@ if __name__=="__main__":
 
             # Sample a token
 
-            # Ban wait:240
-            #idx_wait_240 = token_index["wait:240\n"]
-            #output_tokens[0,-1,idx_wait_240]=0
+            # Ban wait if we generated one previously
+
+            if wait_generated:
+                for token in tokens:
+                    if "wait" in token:
+                        output_tokens[0,-1,token_index[token]]=0
 
             sampled_token_index = np.sample(output_tokens[0, -1, :])
             sampled_token = reverse_token_index[sampled_token_index]
@@ -91,8 +97,10 @@ if __name__=="__main__":
                 else:
                     decoded_sentence+=f"wait:{dur_max-total_gen_dur}\n"
                     return decoded_sentence
+                wait_generated = True
             else:
                 decoded_sentence += sampled_token
+                wait_generated = False
 
             # Exit condition: either hit max length
             # or find stop character.

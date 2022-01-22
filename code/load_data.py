@@ -28,7 +28,7 @@ def load_training(data_path="../training_data",guitar_only="on"):
             target_texts.append(target_text)
             
             for token in input_text:
-                if guitar_only=="on" and "bass" not in token and "drums" not in token:
+                if guitar_only=="on" and "bass" not in token and "drums" not in token and "nfx" not in token:
                     if token not in target_tokens:
                         target_tokens.append(token)
                     input_text_guitar.append(token)
@@ -38,7 +38,7 @@ def load_training(data_path="../training_data",guitar_only="on"):
                         target_tokens.append(token)
             
             for token in target_text:
-                if guitar_only=="on" and "bass" not in token and "drums" not in token:
+                if guitar_only=="on" and "bass" not in token and "drums" not in token and "nfx" not in token:
                     if token not in target_tokens:
                         target_tokens.append(token)
                     target_text_guitar.append(token)
@@ -81,7 +81,7 @@ def load_test(data_path="../test_data",guitar_only="on"):
             input_texts.append(input_text)
             input_text_guitar = []
             for token in input_text:
-                if guitar_only=="on" and "bass" not in token and "drums" not in token:
+                if guitar_only=="on" and "bass" not in token and "drums" not in token and "nfx" not in token:
                     input_text_guitar.append(token)
 
             #gathering of target texts
@@ -91,7 +91,7 @@ def load_test(data_path="../test_data",guitar_only="on"):
 
             target_text_guitar = []
             for token in target_text:
-                if guitar_only=="on" and "bass" not in token and "drums" not in token:
+                if guitar_only=="on" and "bass" not in token and "drums" not in token and "nfx" not in token:
                     target_text_guitar.append(token)
 
             headers.append(header)
