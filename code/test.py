@@ -4,7 +4,7 @@ from tensorflow import keras
 import numpy as np
 
 if __name__=="__main__":
-    input_texts, target_texts, headers = load_test("../training_data")
+    input_texts, target_texts, headers = load_test()
     tokens = list(open("../tokens/tokens_list.txt"))
     num_tokens = len(tokens)
     max_encoder_seq_length = int(list(open("../tokens/max_encoder_seq_length.txt"))[0])
@@ -54,6 +54,8 @@ if __name__=="__main__":
         return np.argmax(probas)
 
     def decode_sequence(input_seq,dur_max):
+        first_token = True
+
         #Check if the laste generated token as a wait token
         wait_generated = False
 
@@ -77,10 +79,11 @@ if __name__=="__main__":
 
             # Ban wait if we generated one previously
 
-            if wait_generated:
+            if wait_generated or first_token:
                 for token in tokens:
                     if "wait" in token:
                         output_tokens[0,-1,token_index[token]]=0
+                first_token = False
 
             sampled_token_index = np.sample(output_tokens[0, -1, :])
             sampled_token = reverse_token_index[sampled_token_index]
@@ -106,6 +109,7 @@ if __name__=="__main__":
             # or find stop character.
             if len(decoded_sentence) > max_encoder_seq_length:
                 stop_condition = True
+                decoded_sentence+=f"wait:{dur_max-total_gen_dur}\n"
 
             # Update the target sequence (of length 1).
             target_seq = np.zeros((1, 1, num_tokens))
