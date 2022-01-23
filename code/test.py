@@ -85,7 +85,7 @@ if __name__=="__main__":
                         output_tokens[0,-1,token_index[token]]=0
                 first_token = False
 
-            sampled_token_index = np.sample(output_tokens[0, -1, :])
+            sampled_token_index = sample(output_tokens[0, -1, :])
             sampled_token = reverse_token_index[sampled_token_index]
 
             
