@@ -2,7 +2,7 @@ import os
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-def get_tokens(data_path="../training_data",guitar_only="on"):
+def get_tokens(data_path="../training_data/raw",guitar_only="on"):
     song_dir = os.listdir(data_path)
 
     target_tokens = []
@@ -18,7 +18,7 @@ def get_tokens(data_path="../training_data",guitar_only="on"):
         
             for token in input_text:
                     if guitar_only=="on" and "bass" not in token and "drums" not in token and "nfx" not in token:
-                        input_text_guitar.append[token]
+                        input_text_guitar.append(token)
                         if token not in target_tokens:
                             target_tokens.append(token)
 
