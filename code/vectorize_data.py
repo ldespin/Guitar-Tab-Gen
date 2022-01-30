@@ -1,40 +1,52 @@
 import numpy as np
+import os
 
-def max_tokens(texts):
-    return np.max([len(text) for text in texts])
-
-def vectorize_training(input_texts, target_texts, target_tokens):
-
-    num_tokens = len(target_tokens)
-    max_encoder_seq_length = max_tokens(input_texts)
-    max_decoder_seq_length = max_tokens(target_texts)
-
-    max_encoder_file = open("../tokens/max_encoder_seq_length.txt","w")
-    max_encoder_file.write(str(max_encoder_seq_length))
-    max_encoder_file.close()
+def vectorize_training(target_tokens, max_tokens,data_path_raw="../training_data/raw", data_path_vec="../training_data/vectorized"):
+    
+    song_dir = os.listdir(data_path_raw)
 
     token_index = dict([(token, i) for i, token in enumerate(target_tokens)])
-    
-    encoder_input_data = np.zeros(
-        (len(input_texts), max_encoder_seq_length, num_tokens), dtype="float32"
-    )
-    decoder_input_data = np.zeros(
-        (len(input_texts), max_decoder_seq_length, num_tokens), dtype="float32"
-    )
-    decoder_target_data = np.zeros(
-        (len(input_texts), max_decoder_seq_length, num_tokens), dtype="float32"
-    )
+    num_tokens = len(target_tokens)
 
-    for i, (input_text, target_text) in enumerate(zip(input_texts, target_texts)):
-        for t,token_input in enumerate(input_text):
-            encoder_input_data[i, t, token_index[token_input]] = 1.0
-        for t,token_target in enumerate(target_text):
-        # decoder_target_data is ahead of decoder_input_data by one timestep
-            decoder_input_data[i, t, token_index[token_target]] = 1.0
-            if t>0:
-                decoder_target_data[i, t-1, token_index[token_target]] = 1.0
+    idx = 0
 
-    return encoder_input_data, decoder_input_data, decoder_target_data
+    for song in song_dir:
+        measures = os.listdir("{}/{}".format(data_path_raw,song))
+        for j in range(1,len(measures)-1):
+            input_file = open("{}/{}/{}.measure_{}.txt".format(data_path_raw,song,song,j))
+            input_text = list(input_file)
+
+            target_file = open("{}/{}/{}.measure_{}.txt".format(data_path_raw,song,song,j+1))
+            target_text = list(target_file)
+
+            encoder_input_data = np.zeros(
+                (max_tokens, num_tokens), dtype="float32"
+            )
+            decoder_input_data = np.zeros(
+                (max_tokens, num_tokens), dtype="float32"
+            )
+            decoder_target_data = np.zeros(
+                (max_tokens, num_tokens), dtype="float32"
+            )
+
+            for t,token_input in enumerate(input_text):
+                if token_input in target_tokens:
+                    encoder_input_data[t, token_index[token_input]] = 1.0
+            for t,token_target in enumerate(target_text):
+            # decoder_target_data is ahead of decoder_input_data by one timestep
+                if token_target in target_tokens:
+                    decoder_input_data[t, token_index[token_target]] = 1.0
+                    if t>0:
+                        decoder_target_data[t-1, token_index[token_target]] = 1.0
+            
+            with open(f'{data_path_vec}/encoder_input_{idx}.npy', 'wb') as f:
+                np.save(f,encoder_input_data)
+
+            with open(f'{data_path_vec}/decoder_input_{idx}.npy', 'wb') as f:
+                np.save(f,decoder_input_data)
+            
+            with open(f'{data_path_vec}/decoder_target_{idx}.npy', 'wb') as f:
+                np.save(f,decoder_target_data)
 
 
 def vectorize_test(input_texts, target_tokens, max_encoder_seq_length):
