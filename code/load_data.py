@@ -36,7 +36,7 @@ def get_tokens(data_path="../training_data/raw",guitar_only="on"):
         tokens_file.write(token)
 
     max_tokens_file = open("../tokens/max_tokens.txt","w")
-    max_tokens_file.write(max_tokens)
+    max_tokens_file.write(str(max_tokens))
 
     return target_tokens, max_tokens
 
