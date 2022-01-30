@@ -47,6 +47,8 @@ def vectorize_training(target_tokens, max_tokens,data_path_raw="../training_data
             
             with open(f'{data_path_vec}/decoder_target_{idx}.npy', 'wb') as f:
                 np.save(f,decoder_target_data)
+            
+            idx+=1
 
 
 def vectorize_test(input_texts, target_tokens, max_encoder_seq_length):
