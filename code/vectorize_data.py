@@ -1,7 +1,7 @@
 import numpy as np
 import os
 
-def vectorize_training(input_text, target_text):
+def vectorize_training(input_text, target_text,guitar_only="on"):
     target_tokens = list(open("../tokens/tokens_list.txt"))
     max_tokens = int(list(open("../tokens/max_tokens.txt"))[0])
     num_tokens = len(target_tokens)
@@ -16,6 +16,10 @@ def vectorize_training(input_text, target_text):
     decoder_target_data = np.zeros(
             (max_tokens, num_tokens), dtype="float32"
     )
+
+    if guitar_only=="on":
+        input_text = remove_non_guitar(input_text)
+        target_text = remove_non_guitar(target_text)
     
     for t,token_input in enumerate(input_text):
         if token_input in target_tokens:
@@ -29,6 +33,12 @@ def vectorize_training(input_text, target_text):
 
     return encoder_input_data, decoder_input_data, decoder_target_data
 
+def remove_non_guitar(text):
+    new_text = []
+    for token in text:
+        if "bass" not in token and "drums" not in token and "nfx" not in token:
+            new_text.append(token)
+    return new_text
 
 def vectorize_test(input_texts, target_tokens, max_encoder_seq_length):
 
