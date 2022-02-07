@@ -11,7 +11,7 @@ def get_tokens(data_path="../training_data/raw",guitar_only="on"):
 
     for measure in measures:
         #gathering of input texts
-        input_file = open(measure)
+        input_file = open(f"{data_path}/{measure}")
         input_text = list(input_file)
         input_text_guitar = []
     
@@ -40,15 +40,11 @@ def get_tokens(data_path="../training_data/raw",guitar_only="on"):
 
 class DataGenerator(keras.utils.Sequence):
     'Generates data for Keras'
-    def __init__(self, list_IDs, labels, dim, batch_size=32, n_channels=1,
-                 n_classes=10, shuffle=True):
+    def __init__(self, list_IDs, batch_size=32, n_channels=1, shuffle=True):
         'Initialization'
-        self.dim = dim
         self.batch_size = batch_size
-        self.labels = labels
         self.list_IDs = list_IDs
         self.n_channels = n_channels
-        self.n_classes = n_classes
         self.shuffle = shuffle
         self.on_epoch_end()
 
@@ -77,17 +73,14 @@ class DataGenerator(keras.utils.Sequence):
 
     def __data_generation(self, list_IDs_temp):
         'Generates data containing batch_size samples' # X : (n_samples, *dim, n_channels)
-        # Initialization
-        X = np.empty((self.batch_size, *self.dim, self.n_channels))
-        y = np.empty((self.batch_size, *self.dim, self.n_channels))
 
         # Generate data
         for i, ID in enumerate(list_IDs_temp[:-1]):
             # Store sample
-            input_file = open('..training_data/raw/' + ID + '.txt')
+            input_file = open(f'..training_data/raw/data_{ID[0]}_{ID[1]}.txt')
             input_text = list(input_file)
 
-            target_file = open('..training_data/raw/' + list_IDs_temp[i+1] + '.txt')
+            target_file = open(f'..training_data/raw/data_{ID[0]}_{ID[1]+1}.txt')
             target_text = list(target_file)
 
             encoder_input_data, decoder_input_data, decoder_target_data = vectorize_data.vectorize_training(input_text, target_text)
