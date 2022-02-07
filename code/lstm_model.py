@@ -42,7 +42,6 @@ def train_lstm(training_generator, num_tokens, epochs=30, latent_dim=256):
     model.fit_generator(
         generator = training_generator,
         epochs=epochs,
-        validation_split=0.2,
         callbacks=[tensorboard_callback]
     )
     # Save model
