@@ -1,3 +1,0 @@
-bass:note:s5:f0
-nfx:tie
-wait:3840

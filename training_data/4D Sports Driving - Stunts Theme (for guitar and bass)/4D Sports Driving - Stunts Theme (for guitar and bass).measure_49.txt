@@ -1,6 +1,0 @@
-bass:note:s5:f0
-distorted0:note:s5:f2
-wait:1920
-bass:rest
-distorted0:rest
-wait:1920

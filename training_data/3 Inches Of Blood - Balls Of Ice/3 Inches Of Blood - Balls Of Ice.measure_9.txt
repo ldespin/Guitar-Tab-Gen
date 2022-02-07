@@ -1,5 +1,0 @@
-measure:repeat_alternative:2
-distorted0:note:s4:f3
-distorted0:note:s5:f1
-distorted1:rest
-wait:3840

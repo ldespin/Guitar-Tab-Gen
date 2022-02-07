@@ -1,5 +1,0 @@
-distorted0:rest
-bass:rest
-distorted1:rest
-drums:rest
-wait:1920

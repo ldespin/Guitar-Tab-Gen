@@ -1,2 +1,0 @@
-distorted0:note:s4:f7
-wait:3840
