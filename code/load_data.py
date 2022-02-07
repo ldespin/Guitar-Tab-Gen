@@ -78,10 +78,10 @@ class DataGenerator(Sequence):
         # Generate data
         for i, ID in enumerate(list_IDs_temp[:-1]):
             # Store sample
-            input_file = open(f'..training_data/raw/data_{ID[0]}_{ID[1]}.txt')
+            input_file = open(f'../training_data/raw/data_{ID[0]}_{ID[1]}.txt')
             input_text = list(input_file)
 
-            target_file = open(f'..training_data/raw/data_{ID[0]}_{ID[1]+1}.txt')
+            target_file = open(f'../training_data/raw/data_{ID[0]}_{ID[1]+1}.txt')
             target_text = list(target_file)
 
             encoder_input_data, decoder_input_data, decoder_target_data = vectorize_data.vectorize_training(input_text, target_text)
