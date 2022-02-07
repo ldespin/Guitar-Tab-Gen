@@ -1,6 +1,7 @@
 import os
 import numpy as np
 import keras
+from keras.utils import Sequence
 import vectorize_data
 
 def get_tokens(data_path="../training_data/raw",guitar_only="on"):
@@ -38,7 +39,7 @@ def get_tokens(data_path="../training_data/raw",guitar_only="on"):
     return target_tokens, max_tokens
 
 
-class DataGenerator(keras.utils.Sequence):
+class DataGenerator(Sequence):
     'Generates data for Keras'
     def __init__(self, list_IDs, batch_size=32, n_channels=1, shuffle=True):
         'Initialization'
