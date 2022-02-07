@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import keras
-from keras.utils import Sequence
+from tensorflow.keras.utils import Sequence
 import vectorize_data
 
 def get_tokens(data_path="../training_data/raw",guitar_only="on"):
