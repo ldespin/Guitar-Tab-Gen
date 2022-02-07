@@ -86,7 +86,7 @@ class DataGenerator(Sequence):
 
             encoder_input_data, decoder_input_data, decoder_target_data = vectorize_data.vectorize_training(input_text, target_text)
 
-        return encoder_input_data, decoder_input_data, decoder_target_data
+        return [encoder_input_data, decoder_input_data], decoder_target_data
 
 def load_test(data_path="../test_data",guitar_only="on"):
 

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import datetime
 
 
-def train_lstm(encoder_input_data, decoder_input_data, decoder_target_data, num_tokens, batch_size=64, epochs=30, latent_dim=256):
+def train_lstm(training_generator, num_tokens, batch_size=64, epochs=30, latent_dim=256):
 
     # Define an input sequence and process it.
     encoder_inputs = keras.Input(shape=(None, num_tokens), name="input_encoder")
@@ -39,9 +39,8 @@ def train_lstm(encoder_input_data, decoder_input_data, decoder_target_data, num_
     model.compile(
         optimizer="rmsprop", loss="categorical_crossentropy", metrics=["accuracy"]
     )
-    model.fit(
-        [encoder_input_data, decoder_input_data],
-        decoder_target_data,
+    model.fit_generator(
+        generator = training_generator,
         batch_size=batch_size,
         epochs=epochs,
         validation_split=0.2,

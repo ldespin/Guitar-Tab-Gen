@@ -25,5 +25,5 @@ if __name__=="__main__":
 
     
 
-    #lstm_model.train_lstm(encoder_input_data, decoder_input_data, decoder_target_data, num_tokens)
+    lstm_model.train_lstm(training_generator, num_tokens)
 
