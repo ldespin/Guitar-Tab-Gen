@@ -3,7 +3,7 @@ import os
 
 def vectorize_training(input_text, target_text):
     target_tokens = list(open("../tokens/tokens_list.txt"))
-    max_tokens = int(open("../tokens/max_tokens.txt"))
+    max_tokens = list(open("../tokens/max_tokens.txt"))[0]
     num_tokens = len(target_tokens)
     token_index = dict([(token, i) for i, token in enumerate(target_tokens)])
 
