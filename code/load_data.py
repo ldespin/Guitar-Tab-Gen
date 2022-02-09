@@ -41,11 +41,10 @@ def get_tokens(data_path="../training_data/raw",guitar_only="on"):
 
 class DataGenerator(Sequence):
     'Generates data for Keras'
-    def __init__(self, list_IDs, batch_size=32, n_channels=1, shuffle=True):
+    def __init__(self, list_IDs, batch_size=32, shuffle=True):
         'Initialization'
         self.batch_size = batch_size
         self.list_IDs = list_IDs
-        self.n_channels = n_channels
         self.shuffle = shuffle
         self.on_epoch_end()
 
@@ -90,8 +89,8 @@ class DataGenerator(Sequence):
             encoder_input_text, decoder_input_text, decoder_target_text = vectorize_data.vectorize_training(input_text, target_text)
             encoder_input_data.append(encoder_input_text)
             decoder_input_data.append(decoder_input_text)
-            decoder_target_data.append(decoder_input_text)
-
+            decoder_target_data.append(decoder_target_text)
+            
         return [encoder_input_data, decoder_input_data], decoder_target_data
 
 def load_test(data_path="../test_data",guitar_only="on"):
