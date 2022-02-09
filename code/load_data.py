@@ -74,6 +74,9 @@ class DataGenerator(Sequence):
 
     def __data_generation(self, list_IDs_temp):
         'Generates data containing batch_size samples' # X : (n_samples, *dim, n_channels)
+        encoder_input_data = []
+        decoder_input_data = []
+        decoder_target_data = []
 
         # Generate data
         for i, ID in enumerate(list_IDs_temp[:-1]):
@@ -84,7 +87,10 @@ class DataGenerator(Sequence):
             target_file = open(f'../training_data/raw/data_{ID[0]}_{ID[1]+1}.txt')
             target_text = list(target_file)
 
-            encoder_input_data, decoder_input_data, decoder_target_data = vectorize_data.vectorize_training(input_text, target_text)
+            encoder_input_text, decoder_input_text, decoder_target_text = vectorize_data.vectorize_training(input_text, target_text)
+            encoder_input_data.append(encoder_input_text)
+            decoder_input_data.append(decoder_input_text)
+            decoder_target_data.append(decoder_input_text)
 
         return [encoder_input_data, decoder_input_data], decoder_target_data
 
