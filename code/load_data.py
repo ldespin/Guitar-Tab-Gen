@@ -91,7 +91,7 @@ class DataGenerator(Sequence):
             decoder_input_data.append(decoder_input_text)
             decoder_target_data.append(decoder_target_text)
             
-        return [encoder_input_data, decoder_input_data], decoder_target_data
+        return [np.array(encoder_input_data), np.array(decoder_input_data)], np.array(decoder_target_data)
 
 def load_test(data_path="../test_data",guitar_only="on"):
 
