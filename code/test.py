@@ -120,12 +120,30 @@ if __name__=="__main__":
         return decoded_sentence
 
 
-    for seq_index in range(1):
+    for seq_index in range(100):
+        f_input = open(f"../results/seq_{seq_index}_input",'w')
+        f_output_or = open(f"../results/seq_{seq_index}_output_or",'w')
+        f_output_pred = open(f"../results/seq_{seq_index}_output_pred",'w')
         input_seq = encoded_inputs[seq_index:seq_index+1]
         dur= get_duration(input_texts[seq_index])
         decoded_measure = decode_sequence(input_seq,dur)
-        print("-")
-        print("Input measure:", input_texts[seq_index])
-        print("Decoded measure:", decoded_measure)
+
+        for token in headers[seq_index]:
+            f_input.write(token)
+            f_output_or.write(token)
+            f_output_pred.write(token)
+
+        for token in input_texts[seq_index]:
+            f_input.write(token)
+
+        for token in target_texts[seq_index]:
+            f_output_or.write(token)
+
+        f_output_pred.write(decoded_measure)
+
+        f_input.close()
+        f_output_or.close()
+        f_output_pred.close()
+
 
 
