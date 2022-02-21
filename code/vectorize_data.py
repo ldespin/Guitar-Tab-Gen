@@ -40,7 +40,7 @@ def remove_non_guitar(text):
             new_text.append(token)
     return new_text
 
-def vectorize_test(input_text, target_tokens, max_encoder_seq_length):
+def vectorize_test(input_text, target_tokens, max_encoder_seq_length,guitar_only="on"):
 
     num_tokens = len(target_tokens)
     token_index = dict([(token, i) for i, token in enumerate(target_tokens)])
@@ -48,6 +48,8 @@ def vectorize_test(input_text, target_tokens, max_encoder_seq_length):
         (max_encoder_seq_length, num_tokens), dtype="float32"
     )
 
+    if guitar_only=="on":
+        input_text = remove_non_guitar(input_text)
 
     for t,token_input in enumerate(input_text):
         if token_input in token_index:
