@@ -2,9 +2,35 @@ from load_data import load_test
 import vectorize_data
 from tensorflow import keras
 import numpy as np
+import os
 
 if __name__=="__main__":
-    input_texts, target_texts, headers = load_test()
+
+    input_texts = []
+    target_texts = []
+
+    measures = os.listdir("../training_data/raw")
+    n=999
+    IDs = []
+    for i in range(999):
+        song = []
+        for file in measures:
+            if f"_{i}_" in file:
+                song.append(file)
+        for j in range(len(song)-1):
+            IDs.append([i,j])
+
+    for i, ID in enumerate(IDs[:-1]):
+            # Store sample
+            input_file = open(f'../training_data/raw/data_{ID[0]}_{ID[1]}.txt')
+            input_text = list(input_file)
+
+            target_file = open(f'../training_data/raw/data_{ID[0]}_{ID[1]+1}.txt')
+            target_text = list(target_file)
+
+            input_texts.append(input_text)
+            target_texts.append(target_text)
+
     tokens = list(open("../tokens/tokens_list.txt"))
     num_tokens = len(tokens)
     max_encoder_seq_length = int(list(open("../tokens/max_encoder_seq_length.txt"))[0])
