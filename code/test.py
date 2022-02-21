@@ -79,11 +79,11 @@ if __name__=="__main__":
 
             # Ban wait if we generated one previously
 
-            if wait_generated or first_token:
-                for token in tokens:
-                    if "wait" in token:
-                        output_tokens[0,-1,token_index[token]]=0
-                first_token = False
+            #if wait_generated or first_token:
+            #    for token in tokens:
+            #        if "wait" in token:
+            #            output_tokens[0,-1,token_index[token]]=0
+            #    first_token = False
 
             sampled_token_index = sample(output_tokens[0, -1, :])
             sampled_token = reverse_token_index[sampled_token_index]
@@ -120,18 +120,13 @@ if __name__=="__main__":
         return decoded_sentence
 
 
-    for seq_index in range(100):
+    for seq_index in range(len(input_texts)):
         f_input = open(f"../results/seq_{seq_index}_input",'w')
         f_output_or = open(f"../results/seq_{seq_index}_output_or",'w')
         f_output_pred = open(f"../results/seq_{seq_index}_output_pred",'w')
         input_seq = encoded_inputs[seq_index:seq_index+1]
         dur= get_duration(input_texts[seq_index])
         decoded_measure = decode_sequence(input_seq,dur)
-
-        for token in headers[seq_index]:
-            f_input.write(token)
-            f_output_or.write(token)
-            f_output_pred.write(token)
 
         for token in input_texts[seq_index]:
             f_input.write(token)
