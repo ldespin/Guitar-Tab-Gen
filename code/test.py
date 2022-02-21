@@ -149,7 +149,7 @@ if __name__=="__main__":
         f_input = open(f"../results/seq_{seq_index}_input",'w')
         f_output_or = open(f"../results/seq_{seq_index}_output_or",'w')
         f_output_pred = open(f"../results/seq_{seq_index}_output_pred",'w')
-        input_seq = vectorize_data.vectorize_test(input_texts[seq_index])
+        input_seq = vectorize_data.vectorize_test(input_texts[seq_index],tokens, max_encoder_seq_length)
         dur= get_duration(input_texts[seq_index])
         decoded_measure = decode_sequence(input_seq,dur)
 
