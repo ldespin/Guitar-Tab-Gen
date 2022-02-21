@@ -34,7 +34,6 @@ if __name__=="__main__":
     tokens = list(open("../tokens/tokens_list.txt"))
     num_tokens = len(tokens)
     max_encoder_seq_length = int(list(open("../tokens/max_encoder_seq_length.txt"))[0])
-    encoded_inputs = vectorize_data.vectorize_test(input_texts, tokens, max_encoder_seq_length)
     model = keras.models.load_model("s2s")
 
     encoder_inputs = model.input[0]  # input_1
@@ -150,7 +149,7 @@ if __name__=="__main__":
         f_input = open(f"../results/seq_{seq_index}_input",'w')
         f_output_or = open(f"../results/seq_{seq_index}_output_or",'w')
         f_output_pred = open(f"../results/seq_{seq_index}_output_pred",'w')
-        input_seq = encoded_inputs[seq_index:seq_index+1]
+        input_seq = vectorize_data.vectorize_test(input_texts[seq_index])
         dur= get_duration(input_texts[seq_index])
         decoded_measure = decode_sequence(input_seq,dur)
 
