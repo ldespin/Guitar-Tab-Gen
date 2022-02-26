@@ -1,0 +1,3 @@
+distorted0:note:s4:f0
+nfx:tie
+wait:3840

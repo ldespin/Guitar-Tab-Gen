@@ -1,0 +1,7 @@
+leads:note:s6:f7
+pads:note:s5:f0
+nfx:tie
+bass:rest
+wait:1920
+leads:note:s4:f9
+wait:1920

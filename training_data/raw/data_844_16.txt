@@ -1,0 +1,4 @@
+measure:repeat_alternative:1
+measure:repeat_close:1
+bass:note:s5:f3
+wait:3840

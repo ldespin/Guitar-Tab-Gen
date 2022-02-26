@@ -1,0 +1,13 @@
+measure:repeat_close:1
+clean0:note:s2:f7
+clean1:rest
+bass:rest
+wait:960
+clean0:note:s2:f6
+wait:1920
+clean0:note:s2:f3
+wait:240
+clean0:note:s2:f4
+wait:240
+clean0:note:s2:f3
+wait:480

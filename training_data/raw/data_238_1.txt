@@ -1,0 +1,17 @@
+distorted0:note:s5:f0
+nfx:tie
+wait:960
+distorted0:note:s4:f7
+wait:480
+distorted0:note:s4:f7
+nfx:slide:1
+wait:960
+distorted0:note:s4:f0
+nfx:dead
+wait:480
+distorted0:note:s1:f7
+nfx:grace:fret6
+param:duration64:dead0:beat0:transition2
+wait:480
+distorted0:note:s1:f7
+wait:480

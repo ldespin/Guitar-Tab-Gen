@@ -1,0 +1,3 @@
+clean0:rest
+pads:note:s1:f19
+wait:3840

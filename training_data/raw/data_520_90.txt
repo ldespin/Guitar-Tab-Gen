@@ -1,0 +1,11 @@
+leads:note:s1:f0
+nfx:tie
+clean0:rest
+distorted0:rest
+bass:rest
+drums:rest
+wait:960
+leads:rest
+wait:1920
+leads:rest
+wait:960

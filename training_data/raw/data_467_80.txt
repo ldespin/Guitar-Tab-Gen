@@ -1,0 +1,15 @@
+clean0:note:s4:f2
+nfx:tie
+bass:note:s4:f0
+nfx:tie
+distorted0:note:s4:f0
+nfx:tie
+leads:rest
+pads:note:s5:f0
+nfx:tie
+distorted1:note:s4:f2
+nfx:tie
+distorted2:note:s4:f0
+nfx:tie
+drums:rest
+wait:3840

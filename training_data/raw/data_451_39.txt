@@ -1,0 +1,11 @@
+clean1:note:s4:f7
+nfx:slide:2
+wait:480
+clean1:note:s4:f11
+nfx:slide:2
+wait:480
+clean1:note:s4:f11
+nfx:slide:2
+wait:480
+clean1:note:s4:f7
+wait:480

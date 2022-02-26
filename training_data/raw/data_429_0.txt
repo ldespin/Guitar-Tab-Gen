@@ -1,0 +1,15 @@
+leads:rest
+distorted0:rest
+distorted1:rest
+clean0:rest
+clean1:rest
+bass:rest
+drums:rest
+wait:2880
+bass:rest
+drums:rest
+wait:480
+bass:note:s4:f2
+drums:note:42
+drums:note:35
+wait:480

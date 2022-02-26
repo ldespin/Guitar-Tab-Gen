@@ -1,0 +1,5 @@
+leads:rest
+drums:note:49
+wait:1920
+drums:note:57
+wait:1920

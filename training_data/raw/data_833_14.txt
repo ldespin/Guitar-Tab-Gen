@@ -1,0 +1,4 @@
+clean0:note:s6:f0
+nfx:tie
+bass:rest
+wait:3840

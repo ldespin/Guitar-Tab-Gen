@@ -1,0 +1,17 @@
+measure:triplet_feel:1
+distorted0:note:s6:f7
+distorted1:rest
+bass:rest
+wait:960
+distorted1:note:s3:f16
+nfx:bend:type1
+param:val0:vib0
+param:dur6
+param:val2:vib0
+param:dur6
+param:val2:vib0
+bfx:vibrato
+wait:960
+distorted1:note:s3:f16
+nfx:tie
+wait:1920

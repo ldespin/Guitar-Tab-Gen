@@ -1,0 +1,8 @@
+bass:rest
+distorted0:rest
+distorted1:rest
+wait:1440
+bass:note:s2:f4
+wait:1920
+bass:note:s2:f6
+wait:480

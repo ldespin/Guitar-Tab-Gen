@@ -1,0 +1,15 @@
+distorted0:note:s4:f0
+nfx:tie
+distorted0:note:s5:f0
+nfx:tie
+distorted1:rest
+bass:rest
+drums:note:52
+drums:note:48
+wait:960
+drums:rest
+wait:960
+distorted0:rest
+wait:960
+drums:rest
+wait:960

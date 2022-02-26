@@ -1,0 +1,10 @@
+pads:note:s1:f0
+nfx:tie
+pads:note:s4:f0
+nfx:tie
+pads:note:s5:f0
+nfx:tie
+wait:4096
+wait:1024
+wait:512
+wait:128

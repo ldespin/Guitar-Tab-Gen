@@ -1,0 +1,4 @@
+distorted0:rest
+distorted1:rest
+bass:rest
+wait:1920

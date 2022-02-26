@@ -1,0 +1,6 @@
+clean0:note:s4:f5
+clean0:note:s5:f5
+clean0:note:s6:f3
+drums:note:40
+drums:note:36
+wait:3840

@@ -1,0 +1,9 @@
+pads:rest
+clean0:rest
+distorted0:note:s1:f10
+bfx:fade_in
+distorted1:note:s2:f6
+bfx:fade_in
+bass:rest
+drums:rest
+wait:3840

@@ -1,0 +1,4 @@
+clean0:note:s1:f5
+wait:1920
+clean0:rest
+wait:1920

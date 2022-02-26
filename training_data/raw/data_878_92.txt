@@ -1,0 +1,7 @@
+clean0:note:s4:f0
+distorted0:rest
+bass:rest
+distorted1:rest
+leads:rest
+drums:rest
+wait:3840

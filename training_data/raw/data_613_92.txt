@@ -1,0 +1,5 @@
+bass:rest
+drums:rest
+leads:rest
+pads:rest
+wait:3840

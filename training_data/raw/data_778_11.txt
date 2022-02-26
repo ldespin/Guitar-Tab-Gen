@@ -1,0 +1,17 @@
+clean0:note:s3:f10
+wait:480
+clean0:rest
+wait:480
+clean0:rest
+wait:960
+clean0:note:s4:f10
+nfx:hammer
+wait:480
+clean0:note:s4:f13
+wait:480
+clean0:note:s3:f10
+nfx:hammer
+wait:480
+clean0:note:s3:f13
+nfx:slide:1
+wait:480

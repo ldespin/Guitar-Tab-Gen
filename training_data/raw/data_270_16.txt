@@ -1,0 +1,2 @@
+bass:rest
+wait:1920

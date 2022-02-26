@@ -1,0 +1,14 @@
+distorted0:rest
+bfx:tempo_change:130
+bass:rest
+drums:note:35
+wait:240
+distorted0:rest
+drums:note:38
+wait:240
+drums:note:35
+wait:240
+distorted0:note:s2:f0
+nfx:hammer
+drums:note:38
+wait:240

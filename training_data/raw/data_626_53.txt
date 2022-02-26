@@ -1,0 +1,14 @@
+clean0:note:s4:f4
+clean0:note:s5:f2
+wait:480
+clean0:note:s3:f0
+clean0:note:s5:f2
+wait:480
+clean0:note:s3:f2
+clean0:note:s4:f4
+clean0:note:s5:f3
+wait:480
+clean0:note:s3:f5
+clean0:note:s4:f7
+clean0:note:s5:f6
+wait:480

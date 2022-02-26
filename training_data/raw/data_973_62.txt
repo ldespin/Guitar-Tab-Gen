@@ -1,0 +1,7 @@
+distorted0:rest
+distorted1:note:s1:f1
+drums:note:49
+drums:note:38
+drums:note:41
+drums:note:35
+wait:3840

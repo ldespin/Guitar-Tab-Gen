@@ -1,0 +1,12 @@
+leads:rest
+bfx:tempo_change:100
+bfx:tempo_change:100
+wait:240
+leads:note:s3:f4
+nfx:slide:1
+wait:240
+leads:note:s3:f9
+nfx:slide:1
+wait:240
+leads:note:s3:f7
+wait:240

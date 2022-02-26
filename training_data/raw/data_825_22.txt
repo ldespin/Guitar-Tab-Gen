@@ -1,0 +1,17 @@
+measure:repeat_alternative:1
+distorted0:rest
+bass:note:s4:f8
+drums:rest
+wait:960
+bass:note:s4:f8
+wait:480
+bass:note:s4:f8
+wait:480
+bass:note:s4:f8
+wait:480
+bass:note:s5:f8
+wait:480
+bass:note:s5:f10
+wait:480
+bass:note:s4:f6
+wait:480

@@ -1,0 +1,16 @@
+distorted0:note:s4:f0
+nfx:tie
+distorted0:note:s5:f0
+nfx:tie
+distorted0:note:s6:f0
+nfx:tie
+drums:note:0
+nfx:tie
+bass:note:s5:f0
+nfx:tie
+leads:note:s4:f0
+nfx:tie
+wait:1920
+leads:note:s4:f0
+nfx:tie
+wait:1920

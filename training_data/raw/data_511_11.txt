@@ -1,0 +1,15 @@
+clean0:note:s4:f0
+clean0:note:s6:f17
+distorted0:rest
+wait:1440
+clean0:note:s6:f17
+wait:480
+clean0:note:s5:f17
+clean0:note:s6:f17
+wait:960
+clean0:note:s5:f12
+clean0:note:s6:f14
+wait:480
+clean0:note:s5:f12
+clean0:note:s6:f14
+wait:480

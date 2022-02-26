@@ -1,0 +1,5 @@
+leads:note:s4:f6
+leads:note:s6:f1
+bass:rest
+drums:rest
+wait:3840

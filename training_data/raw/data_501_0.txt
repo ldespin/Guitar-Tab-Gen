@@ -1,0 +1,7 @@
+pads:note:s4:f4
+pads:note:s5:f4
+pads:note:s6:f5
+wait:4096
+wait:1024
+wait:512
+wait:128

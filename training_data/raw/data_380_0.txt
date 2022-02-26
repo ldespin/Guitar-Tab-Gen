@@ -1,0 +1,10 @@
+distorted0:note:s2:f16
+bfx:fade_in
+bfx:tempo_change:70
+distorted1:rest
+bass:rest
+drums:rest
+wait:960
+distorted0:note:s2:f16
+nfx:tie
+wait:2880

@@ -1,0 +1,13 @@
+distorted0:rest
+bass:rest
+wait:1920
+distorted0:rest
+bass:rest
+wait:960
+distorted0:rest
+bass:rest
+wait:480
+distorted0:note:s4:f3
+distorted0:note:s5:f1
+bass:note:s4:f1
+wait:480

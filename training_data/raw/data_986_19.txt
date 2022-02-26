@@ -1,0 +1,11 @@
+measure:repeat_close:1
+distorted0:note:s6:f2
+nfx:tremoloPicking:duration120
+distorted1:note:s6:f2
+nfx:tremoloPicking:duration120
+wait:1920
+distorted0:note:s6:f1
+nfx:tremoloPicking:duration120
+distorted1:note:s6:f1
+nfx:tremoloPicking:duration120
+wait:1920

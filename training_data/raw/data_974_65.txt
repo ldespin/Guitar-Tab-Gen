@@ -1,0 +1,6 @@
+leads:note:s1:f0
+nfx:tie
+clean0:rest
+wait:1920
+leads:rest
+wait:960

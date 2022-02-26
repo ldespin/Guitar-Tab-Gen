@@ -1,0 +1,11 @@
+leads:note:s1:f6
+leads:note:s5:f10
+wait:480
+leads:note:s1:f15
+wait:960
+leads:note:s1:f15
+wait:960
+leads:note:s1:f17
+wait:960
+leads:note:s1:f15
+wait:480

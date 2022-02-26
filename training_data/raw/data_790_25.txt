@@ -1,0 +1,10 @@
+measure:triplet_feel:1
+clean0:rest
+clean1:note:s4:f0
+wait:960
+clean1:note:s1:f10
+wait:960
+clean1:note:s1:f8
+wait:960
+clean1:note:s3:f10
+wait:960

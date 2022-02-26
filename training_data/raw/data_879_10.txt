@@ -1,0 +1,10 @@
+leads:note:s6:f0
+pads:note:s6:f0
+nfx:tie
+wait:960
+leads:note:s6:f0
+wait:960
+leads:note:s6:f0
+wait:960
+leads:note:s6:f0
+wait:960

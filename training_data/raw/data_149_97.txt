@@ -1,0 +1,14 @@
+drums:rest
+bass:note:s5:f0
+leads:note:s4:f2
+leads:note:s6:f0
+wait:960
+drums:rest
+wait:960
+drums:note:35
+wait:480
+drums:note:52
+wait:480
+drums:note:40
+bfx:stroke:2:16
+wait:960

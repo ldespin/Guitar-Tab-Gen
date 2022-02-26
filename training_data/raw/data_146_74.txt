@@ -1,0 +1,3 @@
+leads:note:s1:f6
+leads:note:s5:f6
+wait:3840

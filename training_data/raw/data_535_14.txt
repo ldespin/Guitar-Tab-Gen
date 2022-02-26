@@ -1,0 +1,9 @@
+clean0:rest
+clean1:note:s4:f12
+nfx:bend:type1
+param:val0:vib0
+param:dur6
+param:val4:vib0
+param:dur6
+param:val4:vib0
+wait:960

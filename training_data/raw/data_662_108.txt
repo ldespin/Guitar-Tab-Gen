@@ -1,0 +1,3 @@
+bass:note:s4:f12
+bfx:tempo_change:100
+wait:3840

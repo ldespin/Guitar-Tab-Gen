@@ -1,0 +1,7 @@
+clean0:note:s1:f0
+nfx:let_ring
+clean0:note:s2:f0
+nfx:let_ring
+bfx:stroke:1:4
+bfx:tempo_change:100
+wait:3840

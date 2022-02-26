@@ -1,0 +1,16 @@
+leads:note:s6:f5
+bass:rest
+wait:480
+leads:note:s4:f7
+leads:note:s5:f7
+wait:480
+leads:note:s6:f5
+wait:480
+leads:note:s4:f9
+leads:note:s5:f7
+wait:1920
+leads:note:s4:f7
+nfx:tie
+leads:note:s5:f7
+nfx:tie
+wait:480

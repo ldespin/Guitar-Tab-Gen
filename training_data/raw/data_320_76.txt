@@ -1,0 +1,11 @@
+bass:rest
+clean0:rest
+distorted0:note:s3:f0
+nfx:tie
+distorted0:note:s5:f0
+nfx:tie
+distorted1:note:s3:f0
+nfx:tie
+distorted1:note:s5:f0
+nfx:tie
+wait:3840

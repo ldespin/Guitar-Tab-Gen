@@ -1,0 +1,9 @@
+pads:note:s3:f11
+pads:note:s4:f4
+pads:note:s5:f4
+pads:note:s6:f2
+wait:1920
+pads:note:s4:f12
+wait:1920
+pads:note:s4:f9
+wait:1920

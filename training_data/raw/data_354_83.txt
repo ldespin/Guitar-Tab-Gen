@@ -1,0 +1,8 @@
+distorted0:note:s6:f0
+nfx:tie
+distorted1:note:s6:f0
+nfx:tie
+drums:note:0
+nfx:tie
+leads:rest
+wait:3840

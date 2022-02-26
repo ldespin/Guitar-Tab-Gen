@@ -1,0 +1,16 @@
+clean0:note:s4:f7
+clean0:note:s5:f0
+clean0:note:s6:f9
+bfx:tempo_change:90
+clean1:note:s5:f0
+wait:360
+clean1:note:s6:f11
+wait:240
+clean1:note:s6:f12
+wait:240
+clean1:note:s5:f11
+wait:120
+clean1:note:s5:f9
+wait:480
+clean1:note:s5:f7
+wait:480

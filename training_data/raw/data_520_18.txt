@@ -1,0 +1,13 @@
+leads:note:s1:f1
+clean0:rest
+distorted0:rest
+bass:rest
+drums:rest
+wait:480
+leads:note:s1:f3
+wait:960
+leads:note:s1:f3
+wait:1920
+leads:note:s1:f1
+nfx:tie
+wait:480

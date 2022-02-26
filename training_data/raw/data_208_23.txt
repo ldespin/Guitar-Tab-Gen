@@ -1,0 +1,11 @@
+distorted1:note:s6:f0
+bfx:tremolo_bar:type6
+param:val0:vib0
+param:dur4
+param:val-2:vib0
+param:dur2
+param:val-4:vib0
+param:dur6
+param:val-4:vib0
+drums:rest
+wait:3840

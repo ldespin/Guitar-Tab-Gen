@@ -1,0 +1,12 @@
+measure:triplet_feel:1
+bass:rest
+leads:rest
+clean0:rest
+drums:note:42
+wait:960
+drums:rest
+wait:960
+drums:note:42
+wait:960
+drums:rest
+wait:960

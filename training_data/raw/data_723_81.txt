@@ -1,0 +1,17 @@
+clean0:note:s1:f5
+bass:note:s5:f5
+wait:480
+clean0:note:s1:f7
+wait:960
+clean0:note:s1:f8
+wait:480
+clean0:note:s1:f7
+nfx:slide:1
+bass:note:s5:f5
+nfx:tie
+wait:960
+clean0:note:s1:f5
+bass:note:s5:f5
+wait:480
+bass:note:s5:f5
+wait:480

@@ -1,0 +1,15 @@
+measure:triplet_feel:1
+distorted0:note:s6:f0
+nfx:tie
+distorted1:note:s3:f16
+bfx:tremolo_bar:type6
+param:val0:vib0
+param:dur6
+param:val-4:vib0
+param:dur6
+param:val0:vib0
+bass:rest
+wait:960
+distorted1:note:s3:f16
+nfx:tie
+wait:2880

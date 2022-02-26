@@ -1,0 +1,16 @@
+distorted0:note:s3:f9
+distorted0:note:s4:f9
+distorted0:note:s5:f7
+distorted1:note:s3:f7
+nfx:slide:1
+clean0:note:s3:f9
+clean0:note:s4:f9
+clean0:note:s5:f7
+clean1:rest
+wait:480
+distorted1:note:s3:f9
+nfx:hammer
+wait:1440
+distorted1:note:s3:f9
+nfx:vibrato
+wait:1920

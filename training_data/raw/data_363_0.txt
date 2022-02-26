@@ -1,0 +1,2 @@
+clean0:note:s1:f0
+wait:960

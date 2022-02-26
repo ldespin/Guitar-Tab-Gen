@@ -1,0 +1,15 @@
+leads:note:s4:f2
+bfx:tremolo_bar:type6
+param:val0:vib0
+param:dur6
+param:val-2:vib0
+param:dur6
+param:val0:vib0
+distorted1:note:s5:f5
+distorted1:note:s6:f3
+bass:note:s5:f0
+drums:note:49
+drums:note:57
+drums:note:36
+drums:note:35
+wait:3840

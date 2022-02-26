@@ -1,0 +1,17 @@
+leads:note:s1:f0
+nfx:tie
+leads:note:s2:f0
+nfx:tie
+clean0:rest
+clean1:rest
+bass:rest
+wait:480
+clean1:note:s1:f0
+nfx:tie
+nfx:vibrato
+clean1:note:s2:f0
+nfx:tie
+nfx:vibrato
+wait:2880
+clean1:note:s2:f7
+wait:480

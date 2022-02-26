@@ -1,0 +1,5 @@
+measure:repeat_alternative:8
+bass:note:s5:f3
+wait:2880
+bass:rest
+wait:960

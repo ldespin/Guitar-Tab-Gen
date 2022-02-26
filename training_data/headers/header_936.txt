@@ -1,0 +1,4 @@
+artist:amon_amarth
+downtune:-5
+tempo:120
+start

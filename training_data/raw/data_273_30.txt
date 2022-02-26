@@ -1,0 +1,9 @@
+measure:repeat_close:1
+distorted0:note:s4:f5
+distorted0:note:s5:f5
+distorted0:note:s6:f3
+wait:960
+distorted0:note:s4:f2
+distorted0:note:s5:f2
+distorted0:note:s6:f0
+wait:2880

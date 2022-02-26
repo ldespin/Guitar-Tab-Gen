@@ -1,0 +1,9 @@
+clean0:rest
+clean1:rest
+leads:note:s5:f0
+nfx:tie
+leads:note:s6:f0
+nfx:tie
+bfx:tempo_change:100
+pads:rest
+wait:3840

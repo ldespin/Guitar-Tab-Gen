@@ -1,0 +1,5 @@
+distorted0:note:s4:f2
+distorted0:note:s5:f0
+bfx:tempo_change:70
+bass:note:s5:f5
+wait:3840

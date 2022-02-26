@@ -1,0 +1,15 @@
+leads:rest
+pads:rest
+distorted0:rest
+distorted1:rest
+distorted2:rest
+bass:rest
+drums:rest
+wait:3840
+leads:rest
+pads:rest
+distorted0:rest
+distorted1:rest
+bass:rest
+drums:rest
+wait:3840

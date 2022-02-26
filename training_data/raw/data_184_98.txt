@@ -1,0 +1,10 @@
+clean0:note:s4:f0
+nfx:tie
+clean0:note:s5:f0
+nfx:tie
+clean0:note:s6:f0
+nfx:tie
+drums:note:37
+wait:1920
+drums:note:37
+wait:1920

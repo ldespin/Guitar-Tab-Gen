@@ -1,0 +1,11 @@
+measure:repeat_alternative:2
+clean0:rest
+bfx:stroke:2:4
+drums:note:37
+wait:960
+drums:note:38
+wait:960
+drums:note:37
+wait:960
+drums:note:38
+wait:960

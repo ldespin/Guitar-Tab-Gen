@@ -1,0 +1,4 @@
+measure:repeat_close:2
+distorted0:note:s5:f3
+bass:note:s4:f3
+wait:1920

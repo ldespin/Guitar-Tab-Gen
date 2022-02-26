@@ -1,0 +1,4 @@
+leads:note:s1:f3
+wait:1920
+leads:note:s1:f1
+wait:960

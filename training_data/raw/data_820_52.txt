@@ -1,0 +1,12 @@
+drums:note:81
+wait:480
+drums:note:81
+wait:480
+drums:note:81
+wait:960
+drums:note:81
+wait:480
+drums:note:81
+wait:960
+drums:note:81
+wait:480

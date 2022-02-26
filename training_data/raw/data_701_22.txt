@@ -1,0 +1,4 @@
+measure:triplet_feel:1
+clean0:rest
+bass:rest
+wait:3840

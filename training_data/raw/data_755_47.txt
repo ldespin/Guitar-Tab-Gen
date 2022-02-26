@@ -1,0 +1,2 @@
+drums:note:40
+wait:240

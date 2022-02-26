@@ -1,0 +1,16 @@
+measure:triplet_feel:1
+clean0:rest
+clean1:rest
+wait:960
+clean0:rest
+clean1:rest
+wait:480
+clean0:note:s5:f7
+clean1:note:s5:f7
+nfx:vibrato
+wait:480
+clean0:note:s5:f7
+nfx:vibrato
+clean1:note:s5:f7
+nfx:tie
+wait:960

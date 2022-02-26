@@ -1,0 +1,11 @@
+leads:rest
+bfx:tempo_change:80
+pads:note:s3:f5
+pads:note:s4:f6
+pads:note:s5:f6
+pads:note:s6:f4
+bass:rest
+drums:rest
+wait:1920
+pads:rest
+wait:960

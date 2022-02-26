@@ -1,0 +1,4 @@
+artist:alpha_current
+downtune:-2
+tempo:120
+start

@@ -1,0 +1,7 @@
+leads:note:s1:f6
+leads:note:s5:f10
+wait:960
+leads:note:s1:f20
+wait:960
+leads:note:s1:f22
+wait:1920

@@ -1,0 +1,16 @@
+leads:note:s6:f-2
+nfx:tie
+clean0:note:s6:f-2
+nfx:tie
+distorted0:note:s4:f0
+nfx:tie
+distorted0:note:s5:f0
+nfx:tie
+distorted0:note:s6:f-2
+nfx:tie
+bass:note:s5:f-2
+nfx:tie
+wait:2880
+distorted0:rest
+bass:rest
+wait:960

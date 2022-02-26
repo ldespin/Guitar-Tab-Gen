@@ -1,0 +1,4 @@
+artist:311
+downtune:-5
+tempo:90
+start

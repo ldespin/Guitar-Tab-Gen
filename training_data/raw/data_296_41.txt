@@ -1,0 +1,15 @@
+distorted0:note:s4:f2
+distorted0:note:s5:f2
+distorted0:note:s6:f0
+wait:2880
+distorted0:note:s4:f2
+nfx:tie
+distorted0:note:s5:f2
+nfx:tie
+distorted0:note:s6:f0
+nfx:tie
+wait:240
+distorted0:note:s6:f0
+wait:240
+distorted0:note:s6:f2
+wait:480

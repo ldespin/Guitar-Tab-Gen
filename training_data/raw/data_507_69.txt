@@ -1,0 +1,3 @@
+distorted0:note:s6:f13
+nfx:slide:1
+wait:960

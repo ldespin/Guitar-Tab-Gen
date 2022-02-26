@@ -1,0 +1,17 @@
+leads:rest
+distorted0:note:s2:f0
+nfx:tie
+distorted0:note:s3:f0
+nfx:tie
+distorted0:note:s4:f0
+nfx:tie
+distorted1:note:s2:f0
+nfx:tie
+distorted1:note:s3:f0
+nfx:tie
+distorted1:note:s4:f0
+nfx:tie
+bass:note:s4:f0
+nfx:tie
+drums:rest
+wait:3840

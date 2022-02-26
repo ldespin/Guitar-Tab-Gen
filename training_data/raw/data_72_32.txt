@@ -1,0 +1,9 @@
+measure:repeat_open
+clean0:note:s6:f0
+wait:1440
+clean0:note:s6:f3
+wait:480
+clean0:note:s6:f7
+wait:960
+clean0:note:s6:f7
+wait:960

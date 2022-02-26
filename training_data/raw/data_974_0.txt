@@ -1,0 +1,2 @@
+leads:note:s1:f5
+wait:2880

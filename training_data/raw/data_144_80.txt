@@ -1,0 +1,12 @@
+drums:note:38
+wait:480
+drums:note:36
+wait:480
+drums:note:45
+bfx:stroke:2:8
+wait:480
+drums:note:36
+wait:480
+drums:note:49
+drums:note:38
+wait:1920

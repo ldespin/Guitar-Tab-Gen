@@ -1,0 +1,7 @@
+clean0:note:s1:f14
+clean0:note:s2:f15
+clean0:note:s3:f14
+clean1:note:s1:f22
+clean1:note:s2:f22
+clean1:note:s3:f19
+wait:1920

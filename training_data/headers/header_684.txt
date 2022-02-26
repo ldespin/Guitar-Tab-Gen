@@ -1,0 +1,4 @@
+artist:alice_in_chains
+downtune:-1
+tempo:110
+start

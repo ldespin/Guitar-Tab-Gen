@@ -1,0 +1,4 @@
+artist:3_doors_down
+downtune:-1
+tempo:140
+start

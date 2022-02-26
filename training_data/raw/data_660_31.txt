@@ -1,0 +1,14 @@
+distorted0:rest
+wait:360
+distorted0:note:s4:f5
+distorted0:note:s5:f5
+distorted0:note:s6:f3
+wait:1920
+distorted0:note:s4:f7
+distorted0:note:s5:f7
+distorted0:note:s6:f5
+wait:1440
+distorted0:note:s4:f5
+distorted0:note:s5:f5
+distorted0:note:s6:f3
+wait:120

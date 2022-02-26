@@ -1,0 +1,10 @@
+bass:note:s3:f5
+wait:960
+bass:note:s3:f5
+wait:960
+bass:note:s3:f5
+wait:960
+bass:note:s3:f5
+wait:480
+bass:note:s3:f4
+wait:480

@@ -1,0 +1,6 @@
+bass:rest
+drums:note:49
+nfx:let_ring
+drums:note:40
+nfx:let_ring
+wait:3840

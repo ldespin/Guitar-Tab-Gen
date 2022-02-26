@@ -1,0 +1,4 @@
+artist:graeme_allwright
+downtune:0
+tempo:150
+start

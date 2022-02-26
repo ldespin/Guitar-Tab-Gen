@@ -1,0 +1,9 @@
+clean0:rest
+bass:rest
+wait:2880
+clean0:rest
+bass:rest
+wait:480
+clean0:rest
+bass:rest
+wait:480

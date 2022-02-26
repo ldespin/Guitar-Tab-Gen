@@ -1,0 +1,2 @@
+pads:note:s4:f0
+wait:3840

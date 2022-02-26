@@ -1,0 +1,17 @@
+leads:note:s2:f18
+distorted0:rest
+pads:rest
+drums:rest
+wait:480
+leads:note:s3:f20
+wait:480
+leads:note:s1:f23
+wait:480
+leads:note:s1:f21
+wait:480
+leads:note:s3:f20
+pads:rest
+drums:rest
+wait:480
+leads:note:s2:f18
+wait:480

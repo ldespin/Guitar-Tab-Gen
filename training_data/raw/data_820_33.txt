@@ -1,0 +1,16 @@
+pads:note:s1:f12
+wait:480
+pads:note:s1:f12
+wait:480
+pads:note:s1:f21
+wait:480
+pads:note:s1:f12
+wait:480
+pads:note:s1:f12
+wait:480
+pads:note:s1:f12
+wait:480
+pads:note:s1:f12
+wait:480
+pads:note:s1:f12
+wait:480

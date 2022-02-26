@@ -1,0 +1,6 @@
+distorted0:note:s4:f5
+wait:480
+distorted0:note:s4:f5
+wait:480
+distorted0:note:s4:f7
+wait:2880

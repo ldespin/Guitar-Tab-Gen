@@ -1,0 +1,4 @@
+artist:alisa
+downtune:0
+tempo:110
+start

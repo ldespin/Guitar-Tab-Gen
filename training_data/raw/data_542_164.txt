@@ -1,0 +1,5 @@
+distorted0:rest
+distorted1:note:s3:f0
+nfx:tie
+bass:rest
+wait:3840

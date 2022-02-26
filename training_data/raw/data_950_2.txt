@@ -1,0 +1,17 @@
+leads:note:s1:f9
+nfx:let_ring
+pads:note:s3:f6
+pads:note:s4:f6
+pads:note:s5:f4
+wait:960
+leads:note:s2:f9
+nfx:let_ring
+wait:960
+leads:note:s1:f9
+nfx:ghost_note
+nfx:let_ring
+wait:960
+leads:note:s2:f9
+nfx:ghost_note
+nfx:let_ring
+wait:960

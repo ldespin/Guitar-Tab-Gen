@@ -1,0 +1,4 @@
+clean0:note:s4:f0
+nfx:tie
+clean1:rest
+wait:3840

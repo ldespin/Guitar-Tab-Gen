@@ -1,0 +1,4 @@
+artist:unknown_artist
+downtune:-5
+tempo:120
+start

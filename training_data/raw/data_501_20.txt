@@ -1,0 +1,12 @@
+pads:note:s3:f9
+pads:note:s4:f0
+nfx:tie
+pads:note:s5:f0
+nfx:tie
+pads:note:s6:f0
+nfx:tie
+wait:1920
+pads:note:s3:f12
+wait:1920
+pads:note:s3:f9
+wait:1920

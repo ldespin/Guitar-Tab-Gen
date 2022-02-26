@@ -1,0 +1,9 @@
+leads:note:s1:f7
+clean0:note:s1:f7
+wait:960
+leads:note:s1:f5
+clean0:note:s1:f5
+wait:960
+leads:note:s1:f0
+clean0:note:s1:f0
+wait:960

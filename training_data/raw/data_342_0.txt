@@ -1,0 +1,12 @@
+drums:note:38
+nfx:grace:fret38
+param:duration128:dead0:beat0:transition1
+wait:960
+drums:note:43
+wait:960
+drums:note:41
+wait:960
+drums:note:38
+wait:480
+drums:note:41
+wait:480

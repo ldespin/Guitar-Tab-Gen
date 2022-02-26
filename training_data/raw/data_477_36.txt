@@ -1,0 +1,9 @@
+distorted1:rest
+wait:480
+distorted1:note:s1:f14
+bfx:fade_in
+wait:2880
+distorted1:note:s1:f13
+wait:240
+distorted1:note:s1:f14
+wait:240

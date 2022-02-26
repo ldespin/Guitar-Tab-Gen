@@ -1,0 +1,11 @@
+measure:repeat_open
+distorted0:note:s4:f7
+distorted0:note:s5:f5
+distorted1:rest
+bass:rest
+wait:1920
+distorted0:note:s4:f7
+nfx:tie
+distorted0:note:s5:f5
+nfx:tie
+wait:1920

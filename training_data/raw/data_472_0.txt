@@ -1,0 +1,11 @@
+bass:rest
+distorted0:rest
+distorted1:rest
+drums:rest
+wait:240
+drums:rest
+wait:240
+drums:note:42
+wait:240
+drums:note:42
+wait:240

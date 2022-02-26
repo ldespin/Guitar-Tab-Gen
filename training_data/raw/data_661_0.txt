@@ -1,0 +1,16 @@
+distorted0:rest
+distorted1:rest
+bass:rest
+drums:note:40
+wait:960
+drums:note:45
+wait:240
+drums:note:43
+wait:240
+drums:note:41
+wait:240
+drums:note:36
+wait:240
+drums:note:40
+nfx:tie
+wait:1920

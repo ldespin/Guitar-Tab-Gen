@@ -1,0 +1,9 @@
+distorted0:rest
+wait:960
+distorted0:note:s1:f7
+nfx:grace:fret6
+param:duration32:dead0:beat0:transition3
+distorted0:note:s2:f6
+nfx:grace:fret5
+param:duration32:dead0:beat0:transition3
+wait:2880

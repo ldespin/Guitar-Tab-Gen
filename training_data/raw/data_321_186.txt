@@ -1,0 +1,11 @@
+pads:note:s6:f-2
+clean0:note:s6:f-2
+nfx:let_ring
+distorted0:rest
+distorted1:rest
+bass:rest
+drums:rest
+wait:960
+pads:note:s5:f0
+clean0:note:s5:f0
+wait:1920

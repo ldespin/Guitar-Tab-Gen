@@ -1,0 +1,4 @@
+artist:ac-dc
+downtune:-1
+tempo:140
+start

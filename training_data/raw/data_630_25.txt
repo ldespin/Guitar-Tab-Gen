@@ -1,0 +1,10 @@
+clean0:note:s1:f7
+clean0:note:s4:f9
+bfx:tempo_change:50
+bfx:tempo_interpolation
+wait:1920
+clean0:note:s1:f0
+clean0:note:s3:f3
+clean0:note:s4:f4
+clean0:note:s5:f3
+wait:960

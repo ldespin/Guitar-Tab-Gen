@@ -1,0 +1,6 @@
+clean0:note:s4:f12
+nfx:let_ring
+wait:960
+clean0:note:s6:f7
+nfx:let_ring
+wait:960

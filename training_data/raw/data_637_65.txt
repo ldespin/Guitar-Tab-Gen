@@ -1,0 +1,17 @@
+clean0:note:s1:f8
+nfx:hammer
+clean0:note:s2:f7
+clean0:note:s5:f6
+wait:120
+clean0:note:s1:f7
+wait:120
+clean0:note:s1:f8
+wait:720
+clean0:note:s1:f8
+nfx:tie
+clean0:note:s2:f7
+clean0:note:s5:f6
+wait:960
+clean0:note:s2:f7
+clean0:note:s5:f6
+wait:960

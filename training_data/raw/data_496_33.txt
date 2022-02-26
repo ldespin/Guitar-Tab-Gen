@@ -1,0 +1,7 @@
+distorted0:note:s2:f5
+bfx:pick_stroke:2
+wait:960
+distorted0:rest
+wait:960
+distorted0:rest
+wait:1920

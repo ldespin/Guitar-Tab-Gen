@@ -1,0 +1,11 @@
+distorted0:rest
+bfx:tempo_change:120
+leads:note:s1:f9
+wait:1440
+leads:note:s1:f7
+wait:720
+leads:note:s1:f5
+wait:1440
+leads:note:s1:f9
+nfx:tie
+wait:240

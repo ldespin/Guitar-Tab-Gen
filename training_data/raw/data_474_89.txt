@@ -1,0 +1,6 @@
+clean0:note:s6:f0
+nfx:dead
+bass:note:s5:f0
+nfx:dead
+drums:note:40
+wait:3840

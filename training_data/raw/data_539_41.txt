@@ -1,0 +1,2 @@
+distorted1:rest
+wait:2880

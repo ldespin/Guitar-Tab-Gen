@@ -1,0 +1,3 @@
+pads:note:s5:f1
+pads:note:s6:f3
+wait:960

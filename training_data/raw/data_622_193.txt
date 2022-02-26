@@ -1,0 +1,14 @@
+clean0:note:s4:f5
+wait:480
+clean0:note:s4:f4
+wait:480
+clean0:note:s4:f1
+bfx:tempo_change:40
+wait:480
+clean0:note:s4:f3
+bfx:tempo_change:150
+wait:480
+clean0:note:s4:f2
+wait:480
+clean0:note:s5:f3
+wait:480

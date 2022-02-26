@@ -1,0 +1,10 @@
+leads:note:s3:f9
+leads:note:s4:f9
+leads:note:s5:f7
+leads:note:s6:f0
+bfx:stroke:2:8
+pads:note:s3:f2
+pads:note:s5:f0
+bass:note:s4:f0
+drums:note:49
+wait:3840

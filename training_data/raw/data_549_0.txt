@@ -1,0 +1,14 @@
+drums:rest
+distorted0:rest
+distorted1:rest
+pads:rest
+leads:rest
+wait:1920
+drums:note:46
+wait:480
+drums:note:46
+wait:480
+drums:note:46
+wait:480
+drums:note:46
+wait:480

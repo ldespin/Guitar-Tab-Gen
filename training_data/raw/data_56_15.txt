@@ -1,0 +1,5 @@
+distorted0:rest
+distorted1:rest
+clean0:rest
+distorted2:rest
+wait:3840

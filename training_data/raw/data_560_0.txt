@@ -1,0 +1,14 @@
+distorted0:note:s5:f0
+nfx:dead
+distorted0:note:s6:f0
+nfx:dead
+bass:note:s5:f0
+nfx:dead
+wait:1920
+distorted0:note:s5:f0
+nfx:dead
+distorted0:note:s6:f0
+nfx:dead
+bass:note:s5:f0
+nfx:dead
+wait:1920

@@ -1,0 +1,9 @@
+clean0:note:s1:f10
+wait:1920
+clean0:note:s1:f10
+nfx:tie
+wait:640
+clean0:note:s1:f8
+wait:640
+clean0:note:s1:f6
+wait:640

@@ -145,14 +145,16 @@ if __name__=="__main__":
         return decoded_sentence
 
 
-    for seq_index in range(len(input_texts)):
-        f_input = open(f"../results/seq_{seq_index}_input",'w')
-        f_output_or = open(f"../results/seq_{seq_index}_output_or",'w')
-        f_output_pred = open(f"../results/seq_{seq_index}_output_pred",'w')
+    for seq_index in range(100):
+        f_input = open(f"../results_base/seq_{seq_index}_input.txt",'w')
+        f_output_or = open(f"../results_base/seq_{seq_index}_output_or.txt",'w')
+        f_output_pred = open(f"../results_base/seq_{seq_index}_output_pred.txt",'w')
         input_seq = vectorize_data.vectorize_test(input_texts[seq_index],tokens, max_encoder_seq_length)
         dur= get_duration(input_texts[seq_index])
         decoded_measure = decode_sequence(np.array([input_seq]),dur)
-
+        f_input.write('artist:unknown\ndowntune:0\ntempo:120\nstart\nnewmeasure\n')
+        f_output_or.write('artist:unknown\ndowntune:0\ntempo:120\nstart\nnewmeasure\n')
+        f_output_pred.write('artist:unknown\ndowntune:0\ntempo:120\nstart\nnewmeasure\n')
         for token in input_texts[seq_index]:
             f_input.write(token)
 
@@ -160,6 +162,10 @@ if __name__=="__main__":
             f_output_or.write(token)
 
         f_output_pred.write(decoded_measure)
+
+        f_input.write('end\n')
+        f_output_or.write('end\n')
+        f_output_pred.write('end\n')
 
         f_input.close()
         f_output_or.close()

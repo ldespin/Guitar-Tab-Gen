@@ -1,0 +1,7 @@
+pads:note:s2:f0
+nfx:tie
+drums:rest
+bfx:tempo_change:170
+wait:1920
+pads:rest
+wait:1920

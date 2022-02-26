@@ -1,0 +1,16 @@
+clean0:rest
+clean1:note:s6:f12
+wait:120
+clean1:note:s5:f14
+wait:120
+clean1:note:s4:f14
+wait:120
+clean1:note:s3:f13
+wait:120
+clean1:note:s1:f12
+wait:120
+clean1:note:s1:f16
+wait:1920
+clean1:note:s1:f12
+nfx:tie
+wait:360

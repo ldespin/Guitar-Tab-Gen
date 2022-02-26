@@ -1,0 +1,4 @@
+artist:aerosmith
+downtune:-1
+tempo:70
+start

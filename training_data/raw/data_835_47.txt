@@ -1,0 +1,11 @@
+measure:repeat_open
+distorted0:rest
+clean0:note:s5:f3
+leads:note:s5:f3
+wait:960
+clean0:note:s4:f2
+wait:960
+clean0:note:s3:f0
+wait:960
+clean0:note:s4:f2
+wait:960

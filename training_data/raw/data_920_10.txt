@@ -1,0 +1,17 @@
+clean0:note:s1:f12
+wait:480
+clean0:note:s1:f12
+nfx:tie
+wait:480
+clean0:note:s1:f12
+nfx:tie
+wait:480
+clean0:note:s1:f12
+nfx:tie
+wait:480
+clean0:note:s1:f12
+nfx:tie
+wait:480
+clean0:note:s1:f12
+nfx:tie
+wait:480

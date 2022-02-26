@@ -1,0 +1,17 @@
+distorted0:note:s4:f7
+nfx:slide:1
+distorted0:note:s6:f5
+nfx:slide:1
+bass:note:s5:f5
+nfx:slide:1
+drums:note:49
+drums:note:57
+drums:note:35
+wait:1920
+distorted0:note:s4:f0
+nfx:dead
+distorted0:note:s6:f0
+nfx:dead
+bass:note:s5:f0
+nfx:dead
+wait:1920

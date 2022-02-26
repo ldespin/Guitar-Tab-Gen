@@ -1,0 +1,15 @@
+measure:triplet_feel:1
+clean0:note:s5:f0
+clean0:note:s6:f0
+clean1:note:s6:f0
+bfx:slap_effect:2
+wait:1440
+clean0:note:s5:f0
+clean1:note:s5:f0
+wait:480
+clean0:note:s6:f3
+clean1:note:s6:f3
+wait:720
+clean0:note:s6:f0
+clean1:note:s6:f0
+wait:240

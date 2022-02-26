@@ -1,0 +1,4 @@
+distorted0:note:s1:f3
+wait:960
+distorted0:rest
+wait:960

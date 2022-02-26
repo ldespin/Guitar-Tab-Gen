@@ -1,0 +1,4 @@
+leads:rest
+pads:note:s4:f3
+pads:note:s6:f1
+wait:3840

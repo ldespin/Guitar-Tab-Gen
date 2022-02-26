@@ -1,0 +1,12 @@
+leads:rest
+drums:note:0
+nfx:tie
+wait:640
+drums:note:41
+drums:note:36
+wait:1024
+wait:256
+drums:note:57
+drums:note:38
+drums:note:36
+wait:1920

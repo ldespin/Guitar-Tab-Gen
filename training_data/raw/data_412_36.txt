@@ -1,0 +1,15 @@
+clean0:rest
+distorted1:note:s3:f12
+drums:note:0
+nfx:tie
+wait:960
+distorted1:note:s3:f11
+wait:960
+distorted1:note:s3:f12
+wait:480
+distorted1:note:s3:f11
+wait:480
+distorted1:note:s3:f12
+wait:480
+distorted1:note:s3:f11
+wait:480

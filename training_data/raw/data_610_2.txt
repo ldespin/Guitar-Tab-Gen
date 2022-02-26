@@ -1,0 +1,8 @@
+clean0:rest
+leads:note:s1:f14
+pads:note:s2:f7
+leads:note:s5:f0
+wait:1920
+leads:note:s1:f21
+bfx:fade_in
+wait:1920

@@ -1,0 +1,5 @@
+pads:rest
+drums:rest
+leads:note:s1:f4
+leads:note:s2:f2
+wait:3840

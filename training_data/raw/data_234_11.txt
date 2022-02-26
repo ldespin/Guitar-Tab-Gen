@@ -1,0 +1,13 @@
+distorted0:note:s4:f0
+nfx:tie
+wait:480
+distorted0:note:s4:f9
+wait:480
+distorted0:note:s4:f7
+wait:960
+distorted0:note:s4:f5
+wait:480
+distorted0:note:s5:f10
+wait:960
+distorted0:note:s5:f7
+wait:480

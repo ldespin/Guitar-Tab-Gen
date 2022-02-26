@@ -1,0 +1,3 @@
+distorted0:rest
+clean0:note:s1:f12
+wait:2880

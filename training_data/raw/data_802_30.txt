@@ -1,0 +1,9 @@
+pads:note:s4:f3
+distorted0:rest
+drums:rest
+clean0:rest
+wait:1920
+pads:note:s3:f2
+pads:note:s4:f3
+pads:note:s5:f3
+wait:1920

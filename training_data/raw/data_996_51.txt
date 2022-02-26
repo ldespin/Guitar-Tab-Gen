@@ -1,0 +1,10 @@
+clean0:note:s5:f2
+nfx:let_ring
+wait:960
+clean0:note:s1:f2
+wait:480
+clean0:note:s1:f3
+wait:960
+clean0:note:s1:f7
+nfx:let_ring
+wait:480

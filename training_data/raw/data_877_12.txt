@@ -1,0 +1,10 @@
+bass:note:s5:f3
+drums:note:49
+drums:note:61
+drums:note:60
+drums:note:35
+wait:480
+bass:rest
+wait:480
+bass:rest
+wait:2880

@@ -1,0 +1,13 @@
+distorted0:note:s4:f4
+nfx:ghost_note
+distorted0:note:s5:f4
+nfx:ghost_note
+distorted0:note:s6:f2
+nfx:ghost_note
+distorted1:note:s4:f4
+nfx:ghost_note
+distorted1:note:s5:f4
+nfx:ghost_note
+distorted1:note:s6:f2
+nfx:ghost_note
+wait:3840

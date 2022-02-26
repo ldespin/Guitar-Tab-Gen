@@ -1,0 +1,4 @@
+artist:accept
+downtune:-1
+tempo:160
+start

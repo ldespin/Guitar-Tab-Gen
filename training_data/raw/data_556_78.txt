@@ -1,0 +1,13 @@
+leads:note:s1:f0
+nfx:tie
+wait:1920
+leads:note:s1:f10
+nfx:hammer
+wait:480
+leads:note:s1:f12
+nfx:hammer
+wait:480
+leads:note:s1:f10
+wait:480
+leads:note:s1:f8
+wait:480

@@ -1,0 +1,15 @@
+measure:repeat_open
+leads:note:s1:f5
+nfx:ghost_note
+wait:480
+leads:note:s1:f5
+nfx:ghost_note
+wait:480
+leads:note:s1:f10
+nfx:ghost_note
+nfx:let_ring
+nfx:vibrato
+wait:1920
+leads:note:s1:f10
+nfx:ghost_note
+wait:960

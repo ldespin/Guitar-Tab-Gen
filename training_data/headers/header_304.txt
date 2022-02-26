@@ -1,0 +1,4 @@
+artist:afi
+downtune:-1
+tempo:120
+start

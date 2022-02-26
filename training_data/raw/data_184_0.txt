@@ -1,0 +1,6 @@
+pads:note:s1:f15
+wait:960
+pads:note:s1:f0
+wait:960
+pads:note:s1:f12
+wait:1920

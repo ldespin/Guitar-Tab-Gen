@@ -1,0 +1,17 @@
+distorted0:rest
+clean0:rest
+distorted1:rest
+leads:rest
+bass:rest
+drums:rest
+wait:1920
+drums:rest
+wait:960
+drums:note:38
+nfx:grace:fret38
+param:duration128:dead0:beat0:transition1
+wait:480
+drums:note:38
+wait:240
+drums:note:38
+wait:240

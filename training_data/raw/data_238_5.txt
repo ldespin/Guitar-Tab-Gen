@@ -1,0 +1,12 @@
+distorted0:note:s2:f15
+wait:960
+distorted0:note:s2:f12
+wait:480
+distorted0:note:s2:f12
+nfx:slide:1
+wait:960
+distorted0:note:s2:f0
+nfx:dead
+wait:480
+distorted0:rest
+wait:960

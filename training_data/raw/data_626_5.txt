@@ -1,0 +1,12 @@
+clean0:note:s1:f12
+wait:480
+clean0:note:s1:f12
+nfx:grace:fret14
+param:duration128:dead0:beat0:transition2
+wait:480
+clean0:note:s1:f10
+wait:240
+clean0:note:s2:f12
+wait:240
+clean0:note:s2:f10
+wait:480

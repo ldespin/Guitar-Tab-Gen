@@ -1,0 +1,10 @@
+measure:repeat_alternative:1
+measure:repeat_close:1
+bass:note:s5:f0
+wait:960
+bass:note:s5:f0
+wait:960
+bass:note:s5:f0
+wait:960
+bass:note:s3:f0
+wait:960

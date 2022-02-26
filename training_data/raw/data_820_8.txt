@@ -1,0 +1,10 @@
+pads:note:s1:f5
+bfx:tempo_change:120
+bfx:tempo_change:120
+wait:960
+pads:note:s1:f8
+wait:960
+pads:note:s1:f4
+wait:960
+pads:note:s1:f7
+wait:960

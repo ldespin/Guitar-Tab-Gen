@@ -1,0 +1,13 @@
+distorted0:rest
+drums:note:42
+wait:960
+drums:note:42
+wait:960
+drums:note:42
+wait:960
+distorted0:rest
+drums:note:38
+wait:480
+distorted0:note:s6:f2
+drums:note:35
+wait:480

@@ -1,0 +1,9 @@
+clean0:rest
+bfx:tempo_change:120
+wait:1920
+clean0:rest
+wait:720
+clean0:rest
+wait:120
+clean0:note:s6:f2
+wait:120

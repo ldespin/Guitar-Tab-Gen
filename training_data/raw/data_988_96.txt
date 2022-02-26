@@ -1,0 +1,13 @@
+distorted0:note:s5:f14
+distorted1:note:s5:f2
+bass:note:s4:f2
+bfx:tempo_change:200
+wait:960
+distorted0:note:s5:f15
+distorted1:note:s5:f3
+bass:note:s4:f3
+wait:960
+distorted0:note:s5:f17
+distorted1:note:s5:f5
+bass:note:s4:f5
+wait:960

@@ -1,0 +1,14 @@
+clean0:note:s5:f9
+clean0:note:s6:f7
+bass:rest
+wait:960
+clean0:note:s5:f9
+clean0:note:s6:f7
+wait:960
+clean0:note:s4:f9
+clean0:note:s5:f9
+clean0:note:s6:f7
+wait:960
+clean0:note:s5:f9
+clean0:note:s6:f7
+wait:960

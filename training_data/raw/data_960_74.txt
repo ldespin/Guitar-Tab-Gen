@@ -1,0 +1,7 @@
+clean0:rest
+clean1:rest
+pads:note:s4:f2
+pads:note:s5:f2
+pads:note:s6:f0
+bfx:fade_in
+wait:3840

@@ -1,0 +1,16 @@
+measure:repeat_open
+bass:note:s5:f0
+bfx:tempo_change:160
+wait:480
+bass:note:s5:f0
+wait:480
+bass:note:s5:f0
+wait:480
+bass:note:s5:f0
+wait:480
+bass:note:s5:f0
+wait:480
+bass:note:s5:f0
+wait:480
+bass:note:s5:f0
+wait:960

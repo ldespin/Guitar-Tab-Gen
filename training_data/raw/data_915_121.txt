@@ -1,0 +1,2 @@
+pads:note:s2:f17
+wait:3840

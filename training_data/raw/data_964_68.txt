@@ -1,0 +1,12 @@
+clean0:rest
+clean1:rest
+leads:note:s3:f7
+leads:note:s5:f5
+pads:rest
+wait:1920
+leads:note:s3:f9
+leads:note:s5:f7
+wait:1440
+leads:note:s3:f11
+leads:note:s5:f9
+wait:480

@@ -1,0 +1,17 @@
+clean0:note:s2:f8
+clean0:note:s4:f11
+clean1:note:s2:f8
+clean1:note:s5:f7
+wait:960
+clean1:note:s3:f4
+nfx:grace:fret3
+param:duration64:dead0:beat0:transition2
+wait:480
+clean0:note:s1:f3
+clean0:note:s2:f5
+clean1:note:s4:f5
+wait:240
+clean0:note:s1:f6
+clean0:note:s2:f7
+clean1:note:s5:f7
+wait:240

@@ -1,0 +1,11 @@
+clean0:rest
+clean1:note:s4:f3
+nfx:slide:-2
+wait:480
+clean1:note:s4:f2
+wait:480
+clean1:note:s4:f0
+wait:960
+clean0:rest
+clean1:note:s4:f2
+wait:960

@@ -1,0 +1,17 @@
+clean0:note:s4:f7
+bfx:tempo_change:130
+bfx:tempo_interpolation
+wait:480
+clean0:note:s4:f9
+wait:480
+clean0:note:s4:f10
+wait:480
+clean0:note:s4:f12
+nfx:hammer
+wait:240
+clean0:note:s4:f10
+wait:240
+clean0:note:s4:f9
+wait:480
+clean0:note:s4:f7
+wait:480

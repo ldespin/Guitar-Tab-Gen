@@ -1,0 +1,9 @@
+distorted0:note:s5:f0
+nfx:tie
+distorted0:note:s6:f-2
+nfx:tie
+distorted1:note:s4:f0
+nfx:tie
+distorted1:note:s5:f0
+nfx:tie
+wait:3840

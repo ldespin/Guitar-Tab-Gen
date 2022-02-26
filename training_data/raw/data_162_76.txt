@@ -1,0 +1,14 @@
+clean0:note:s6:f0
+nfx:let_ring
+clean1:note:s6:f0
+nfx:let_ring
+distorted0:note:s1:f0
+nfx:tie
+wait:3840
+clean0:note:s6:f0
+nfx:tie
+clean1:note:s6:f0
+nfx:tie
+distorted0:note:s1:f0
+nfx:tie
+wait:960

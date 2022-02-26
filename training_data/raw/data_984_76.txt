@@ -1,0 +1,7 @@
+leads:rest
+distorted0:rest
+distorted1:rest
+bass:rest
+drums:note:0
+nfx:tie
+wait:3840

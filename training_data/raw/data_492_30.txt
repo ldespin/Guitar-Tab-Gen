@@ -1,0 +1,9 @@
+measure:repeat_open
+distorted0:rest
+bfx:tempo_change:90
+distorted1:rest
+bfx:tempo_change:90
+wait:1920
+distorted0:rest
+distorted1:rest
+wait:1920

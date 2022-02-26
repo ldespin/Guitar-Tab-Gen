@@ -1,0 +1,10 @@
+distorted0:rest
+distorted1:rest
+bass:note:s5:f0
+nfx:tie
+drums:rest
+wait:960
+bass:rest
+wait:960
+bass:rest
+wait:1920

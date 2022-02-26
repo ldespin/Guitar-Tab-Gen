@@ -1,0 +1,16 @@
+distorted0:rest
+distorted1:rest
+drums:rest
+wait:480
+drums:rest
+wait:240
+drums:note:46
+wait:240
+drums:note:0
+drums:note:40
+drums:note:44
+wait:240
+drums:rest
+wait:480
+drums:rest
+wait:240

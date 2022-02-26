@@ -1,0 +1,5 @@
+measure:repeat_close:3
+distorted0:rest
+distorted1:rest
+bass:rest
+wait:3840

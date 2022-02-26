@@ -1,0 +1,4 @@
+measure:triplet_feel:1
+clean0:rest
+clean1:note:s4:f12
+wait:3840

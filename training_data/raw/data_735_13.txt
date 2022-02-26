@@ -1,0 +1,5 @@
+distorted0:note:s4:f12
+wait:1920
+distorted0:note:s4:f12
+nfx:tie
+wait:960

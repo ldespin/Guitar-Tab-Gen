@@ -1,0 +1,11 @@
+measure:repeat_close:1
+clean0:note:s2:f0
+nfx:tie
+wait:480
+clean0:note:s2:f1
+wait:480
+clean0:note:s2:f1
+wait:960
+clean0:note:s2:f0
+nfx:tie
+wait:960

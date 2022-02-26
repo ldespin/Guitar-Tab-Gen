@@ -1,0 +1,6 @@
+bass:note:s2:f9
+bass:note:s4:f7
+wait:1920
+bass:note:s2:f9
+bass:note:s3:f9
+wait:1920

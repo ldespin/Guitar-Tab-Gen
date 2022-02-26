@@ -1,0 +1,9 @@
+clean0:note:s4:f5
+wait:1440
+clean0:note:s4:f5
+wait:480
+clean0:note:s4:f5
+wait:960
+clean0:note:s4:f5
+nfx:slide:1
+wait:960

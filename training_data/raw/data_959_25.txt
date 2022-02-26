@@ -1,0 +1,15 @@
+distorted0:note:s4:f3
+distorted0:note:s5:f3
+distorted0:note:s6:f1
+bass:note:s5:f1
+bfx:tempo_change:120
+distorted1:note:s1:f1
+drums:note:49
+drums:note:36
+wait:1440
+bass:note:s5:f1
+wait:480
+bass:note:s5:f1
+wait:960
+bass:note:s5:f1
+wait:960

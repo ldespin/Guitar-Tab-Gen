@@ -1,0 +1,16 @@
+pads:note:s1:f15
+pads:note:s2:f15
+pads:note:s3:f15
+leads:note:s1:f18
+pads:note:s4:f8
+wait:1440
+leads:note:s1:f18
+wait:480
+leads:note:s1:f18
+wait:480
+leads:note:s1:f17
+wait:480
+leads:note:s1:f18
+wait:480
+leads:note:s1:f22
+wait:480

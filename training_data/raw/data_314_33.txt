@@ -1,0 +1,16 @@
+pads:note:s3:f0
+nfx:tie
+leads:note:s5:f0
+nfx:tie
+drums:note:66
+drums:note:36
+drums:note:87
+wait:480
+drums:note:66
+drums:note:36
+drums:note:87
+wait:480
+drums:note:66
+drums:note:36
+drums:note:87
+wait:2880

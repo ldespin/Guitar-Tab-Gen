@@ -1,0 +1,10 @@
+distorted0:rest
+distorted1:note:s3:f0
+nfx:tie
+bass:rest
+wait:1920
+distorted1:note:s3:f14
+nfx:ghost_note
+wait:1440
+distorted1:rest
+wait:480

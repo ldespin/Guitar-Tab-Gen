@@ -1,0 +1,6 @@
+clean0:note:s5:f7
+nfx:let_ring
+clean1:rest
+pads:note:s5:f0
+nfx:tie
+wait:3840

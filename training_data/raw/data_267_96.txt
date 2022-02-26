@@ -1,0 +1,5 @@
+distorted0:rest
+distorted1:rest
+distorted2:rest
+drums:rest
+wait:3840

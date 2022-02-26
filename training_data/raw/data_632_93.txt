@@ -1,0 +1,3 @@
+clean0:rest
+clean1:note:s6:f12
+wait:1920

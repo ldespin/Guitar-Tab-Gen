@@ -1,0 +1,12 @@
+clean0:note:s1:f5
+clean1:note:s4:f7
+nfx:slide:-1
+wait:960
+clean0:note:s1:f5
+nfx:tie
+clean1:note:s5:f0
+wait:960
+clean0:note:s1:f5
+nfx:ghost_note
+clean1:note:s4:f7
+wait:960

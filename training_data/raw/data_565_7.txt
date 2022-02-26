@@ -1,0 +1,13 @@
+measure:repeat_close:1
+clean0:note:s3:f2
+nfx:let_ring
+wait:240
+clean0:note:s2:f1
+wait:240
+clean0:note:s1:f0
+wait:240
+clean0:note:s2:f1
+wait:240
+clean0:note:s5:f0
+nfx:let_ring
+wait:960

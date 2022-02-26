@@ -1,0 +1,10 @@
+measure:repeat_open
+leads:note:s1:f1
+clean0:note:s1:f1
+wait:960
+leads:note:s1:f3
+clean0:note:s1:f3
+wait:960
+leads:note:s1:f5
+clean0:note:s1:f5
+wait:960

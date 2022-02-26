@@ -1,0 +1,4 @@
+artist:alternative_competition_5
+downtune:-2
+tempo:110
+start

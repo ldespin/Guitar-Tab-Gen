@@ -1,0 +1,4 @@
+clean1:note:s4:f0
+drums:note:49
+bass:note:s4:f5
+wait:3840

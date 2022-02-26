@@ -1,0 +1,10 @@
+distorted0:note:s6:f7
+wait:480
+distorted0:note:s6:f9
+wait:480
+distorted0:note:s6:f9
+wait:960
+distorted0:note:s6:f9
+wait:960
+distorted0:note:s6:f9
+wait:960

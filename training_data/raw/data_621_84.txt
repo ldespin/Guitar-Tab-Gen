@@ -1,0 +1,10 @@
+clean0:rest
+clean1:note:s4:f14
+wait:1920
+clean1:note:s4:f14
+nfx:tie
+wait:360
+clean1:rest
+wait:480
+clean1:rest
+wait:120

@@ -1,0 +1,4 @@
+artist:acid_drinkers
+downtune:0
+tempo:170
+start

@@ -1,0 +1,9 @@
+measure:repeat_open
+clean0:note:s3:f1
+nfx:let_ring
+clean0:note:s4:f3
+wait:960
+clean0:note:s4:f2
+wait:960
+clean0:note:s4:f0
+wait:960

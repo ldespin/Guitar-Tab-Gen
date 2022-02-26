@@ -1,0 +1,5 @@
+distorted0:note:s5:f11
+distorted0:note:s6:f9
+bass:note:s5:f9
+drums:rest
+wait:3840

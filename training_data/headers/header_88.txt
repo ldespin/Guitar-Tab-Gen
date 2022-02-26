@@ -1,0 +1,4 @@
+artist:36_crazyfists
+downtune:-2
+tempo:110
+start

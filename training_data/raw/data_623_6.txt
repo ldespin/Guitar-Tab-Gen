@@ -1,0 +1,8 @@
+clean0:note:s1:f0
+nfx:tie
+clean0:note:s2:f0
+nfx:tie
+bfx:tempo_change:60
+clean1:note:s1:f7
+clean1:note:s3:f7
+wait:1920

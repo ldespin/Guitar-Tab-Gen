@@ -1,0 +1,5 @@
+clean0:rest
+clean1:rest
+leads:note:s4:f0
+pads:rest
+wait:3840

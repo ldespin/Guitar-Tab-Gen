@@ -1,0 +1,5 @@
+distorted0:note:s6:f0
+nfx:tie
+bfx:tempo_change:80
+distorted1:rest
+wait:3840

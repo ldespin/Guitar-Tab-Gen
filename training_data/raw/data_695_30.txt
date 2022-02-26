@@ -1,0 +1,2 @@
+distorted0:note:s6:f2
+wait:3840

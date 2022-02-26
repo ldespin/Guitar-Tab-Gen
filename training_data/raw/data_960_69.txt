@@ -1,0 +1,10 @@
+clean0:rest
+clean1:rest
+pads:note:s3:f6
+pads:note:s4:f0
+nfx:tie
+pads:note:s5:f0
+nfx:tie
+pads:note:s7:f0
+nfx:tie
+wait:3840

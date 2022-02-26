@@ -1,0 +1,4 @@
+clean0:rest
+wait:2880
+clean0:rest
+wait:960

@@ -1,0 +1,10 @@
+clean0:note:s4:f1
+clean0:note:s5:f1
+clean0:note:s6:f2
+bfx:has_rasgueado
+bfx:stroke:2:4
+distorted0:note:s4:f1
+distorted0:note:s5:f1
+distorted0:note:s6:f2
+bfx:fade_in
+wait:3840

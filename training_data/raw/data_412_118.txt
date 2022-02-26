@@ -1,0 +1,9 @@
+distorted0:rest
+clean0:rest
+bass:rest
+distorted1:note:s3:f12
+nfx:hammer
+drums:rest
+wait:2880
+distorted1:note:s3:f0
+wait:960

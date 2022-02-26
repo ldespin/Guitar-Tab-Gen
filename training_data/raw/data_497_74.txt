@@ -1,0 +1,9 @@
+distorted0:note:s4:f5
+distorted0:note:s5:f5
+distorted0:note:s6:f3
+leads:rest
+bass:note:s5:f3
+drums:note:49
+drums:note:57
+drums:note:36
+wait:3840

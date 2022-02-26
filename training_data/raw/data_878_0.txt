@@ -1,0 +1,10 @@
+clean0:rest
+distorted0:rest
+bass:rest
+distorted1:rest
+leads:rest
+drums:rest
+wait:960
+clean0:note:s4:f2
+nfx:vibrato
+wait:2880

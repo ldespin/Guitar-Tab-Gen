@@ -1,0 +1,6 @@
+measure:repeat_close:1
+distorted0:rest
+leads:note:s5:f0
+wait:2880
+leads:note:s6:f3
+wait:960

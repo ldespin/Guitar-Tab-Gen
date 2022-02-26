@@ -1,0 +1,8 @@
+measure:repeat_close:3
+distorted0:note:s5:f5
+distorted0:note:s6:f3
+distorted1:rest
+wait:1920
+distorted0:note:s4:f5
+distorted0:note:s5:f3
+wait:1920

@@ -1,0 +1,3 @@
+leads:rest
+drums:note:42
+wait:3840

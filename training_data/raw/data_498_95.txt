@@ -1,0 +1,15 @@
+leads:note:s1:f9
+wait:1920
+leads:note:s1:f7
+wait:320
+leads:note:s1:f5
+wait:320
+leads:note:s1:f4
+wait:320
+leads:note:s1:f2
+wait:320
+leads:note:s1:f0
+wait:320
+leads:note:s1:f9
+nfx:tie
+wait:320

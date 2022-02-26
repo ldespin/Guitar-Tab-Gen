@@ -1,0 +1,16 @@
+clean0:note:s6:f0
+wait:480
+clean0:note:s6:f0
+wait:480
+clean0:rest
+wait:480
+clean0:note:s6:f0
+wait:480
+clean0:note:s6:f0
+wait:480
+clean0:rest
+wait:480
+clean0:note:s6:f1
+wait:480
+clean0:note:s6:f1
+wait:480

@@ -1,0 +1,16 @@
+bass:note:s5:f1
+wait:480
+bass:note:s5:f1
+wait:480
+bass:note:s5:f1
+wait:480
+bass:note:s5:f1
+wait:480
+bass:note:s5:f1
+wait:480
+bass:note:s5:f1
+wait:480
+bass:note:s5:f1
+wait:480
+bass:note:s5:f1
+wait:480

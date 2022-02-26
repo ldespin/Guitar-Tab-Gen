@@ -1,0 +1,17 @@
+distorted0:note:s4:f7
+nfx:bend:type4
+param:val4:vib0
+param:dur12
+param:val0:vib0
+distorted1:note:s1:f0
+nfx:tie
+distorted1:note:s2:f0
+nfx:tie
+distorted1:note:s3:f0
+nfx:tie
+distorted1:note:s4:f0
+nfx:tie
+wait:960
+distorted0:note:s4:f5
+nfx:vibrato
+wait:2880

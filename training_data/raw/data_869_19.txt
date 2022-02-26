@@ -1,0 +1,2 @@
+bass:note:s5:f0
+wait:3840

@@ -1,0 +1,14 @@
+distorted0:note:s3:f3
+distorted0:note:s5:f3
+distorted1:rest
+distorted2:note:s3:f5
+distorted2:note:s4:f5
+distorted2:note:s5:f3
+wait:1920
+distorted0:note:s3:f7
+nfx:grace:fret5
+param:duration64:dead0:beat0:transition2
+distorted0:note:s5:f5
+nfx:grace:fret3
+param:duration64:dead0:beat0:transition2
+wait:1920

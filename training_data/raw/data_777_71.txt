@@ -1,0 +1,11 @@
+distorted0:rest
+distorted1:rest
+bass:rest
+leads:note:s2:f0
+nfx:let_ring
+leads:note:s3:f0
+nfx:let_ring
+leads:note:s6:f3
+nfx:let_ring
+drums:rest
+wait:3840

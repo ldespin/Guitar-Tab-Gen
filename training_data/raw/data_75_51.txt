@@ -1,0 +1,4 @@
+clean0:note:s1:f17
+clean1:rest
+distorted0:rest
+wait:3840

@@ -1,0 +1,14 @@
+measure:repeat_close:3
+distorted0:note:s6:f5
+distorted1:rest
+wait:480
+distorted0:note:s6:f6
+wait:480
+distorted0:note:s5:f5
+wait:480
+distorted0:note:s6:f0
+wait:480
+distorted0:note:s6:f0
+wait:480
+distorted0:note:s6:f0
+wait:480

@@ -1,0 +1,17 @@
+bass:note:s4:f7
+drums:note:55
+wait:480
+bass:note:s4:f7
+wait:480
+bass:note:s4:f6
+wait:480
+bass:note:s4:f7
+wait:480
+bass:note:s4:f7
+wait:480
+bass:note:s4:f6
+wait:480
+bass:note:s4:f7
+wait:480
+bass:note:s4:f7
+wait:480

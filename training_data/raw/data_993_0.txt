@@ -1,0 +1,14 @@
+leads:rest
+bass:rest
+drums:rest
+wait:1920
+drums:rest
+wait:720
+drums:note:40
+wait:120
+drums:note:40
+wait:120
+drums:note:40
+wait:480
+drums:note:47
+wait:480

@@ -1,0 +1,5 @@
+distorted0:note:s7:f5
+wait:1920
+distorted0:note:s7:f2
+nfx:vibrato
+wait:1920

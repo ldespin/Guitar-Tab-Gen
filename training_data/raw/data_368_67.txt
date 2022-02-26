@@ -1,0 +1,15 @@
+pads:note:s1:f15
+pads:note:s2:f18
+pads:note:s3:f15
+leads:note:s1:f18
+pads:note:s4:f3
+wait:1920
+pads:note:s1:f15
+nfx:tie
+pads:note:s2:f17
+pads:note:s3:f15
+wait:960
+leads:note:s1:f18
+wait:240
+leads:note:s1:f17
+wait:720

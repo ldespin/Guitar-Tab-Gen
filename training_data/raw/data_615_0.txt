@@ -1,0 +1,4 @@
+leads:rest
+pads:rest
+drums:rest
+wait:3840

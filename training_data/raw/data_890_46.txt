@@ -1,0 +1,8 @@
+leads:note:s4:f0
+nfx:tie
+leads:note:s5:f0
+nfx:tie
+leads:note:s6:f-2
+nfx:tie
+bass:rest
+wait:3840

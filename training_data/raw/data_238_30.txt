@@ -1,0 +1,16 @@
+distorted0:note:s6:f7
+nfx:slide:1
+wait:360
+distorted0:note:s6:f0
+nfx:dead
+wait:120
+distorted0:note:s4:f6
+wait:480
+distorted0:note:s4:f9
+wait:480
+distorted0:note:s4:f9
+wait:480
+distorted0:note:s4:f9
+wait:960
+distorted0:note:s2:f10
+wait:960

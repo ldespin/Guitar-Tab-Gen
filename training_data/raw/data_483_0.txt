@@ -1,0 +1,4 @@
+clean0:rest
+pads:rest
+leads:rest
+wait:3840

@@ -1,0 +1,16 @@
+leads:note:s5:f5
+distorted0:rest
+pads:rest
+drums:rest
+wait:3840
+distorted0:rest
+pads:rest
+drums:rest
+wait:1920
+leads:note:s5:f5
+nfx:tie
+wait:1920
+distorted0:rest
+pads:rest
+drums:rest
+wait:3840

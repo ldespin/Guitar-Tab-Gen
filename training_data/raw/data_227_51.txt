@@ -1,0 +1,4 @@
+measure:repeat_open
+measure:repeat_close:21
+distorted0:rest
+wait:3840

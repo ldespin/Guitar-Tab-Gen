@@ -1,0 +1,3 @@
+clean0:note:s3:f11
+nfx:let_ring
+wait:1920

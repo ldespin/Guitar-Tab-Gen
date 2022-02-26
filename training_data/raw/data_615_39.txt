@@ -1,0 +1,9 @@
+leads:note:s1:f8
+pads:note:s1:f8
+pads:note:s2:f6
+pads:note:s3:f1
+pads:note:s4:f3
+pads:note:s5:f3
+pads:note:s6:f1
+drums:rest
+wait:3840

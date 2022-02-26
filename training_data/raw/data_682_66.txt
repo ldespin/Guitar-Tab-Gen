@@ -1,0 +1,16 @@
+bass:note:s5:f3
+wait:480
+bass:note:s5:f3
+wait:480
+bass:note:s5:f3
+wait:480
+bass:note:s5:f3
+wait:480
+bass:note:s5:f1
+nfx:bend:type1
+param:val0:vib0
+param:dur6
+param:val1:vib0
+param:dur6
+param:val1:vib0
+wait:1920

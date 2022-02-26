@@ -1,0 +1,12 @@
+clean0:note:s2:f13
+nfx:hammer
+wait:2880
+clean0:note:s2:f12
+nfx:hammer
+wait:320
+clean0:note:s2:f11
+nfx:hammer
+wait:320
+clean0:note:s2:f10
+nfx:slide:1
+wait:320

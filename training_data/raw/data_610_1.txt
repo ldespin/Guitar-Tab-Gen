@@ -1,0 +1,9 @@
+clean0:rest
+leads:note:s1:f0
+nfx:tie
+pads:note:s2:f0
+leads:note:s5:f0
+wait:2880
+leads:note:s1:f13
+nfx:slide:2
+wait:960

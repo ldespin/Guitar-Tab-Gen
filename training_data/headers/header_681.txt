@@ -1,0 +1,8 @@
+artist:alice_in_chains
+downtune:-1
+tempo:80
+start
+artist:alice_in_chains
+downtune:-1
+tempo:80
+start

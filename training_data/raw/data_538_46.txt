@@ -1,0 +1,17 @@
+leads:note:s3:f9
+wait:480
+leads:note:s3:f9
+wait:1440
+leads:note:s3:f9
+nfx:tie
+wait:480
+leads:note:s3:f9
+nfx:grace:fret7
+param:duration64:dead0:beat0:transition2
+wait:480
+leads:note:s3:f9
+nfx:tie
+wait:720
+leads:note:s3:f7
+nfx:slide:1
+wait:240

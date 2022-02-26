@@ -1,0 +1,9 @@
+bass:note:s5:f0
+bfx:tempo_change:150
+wait:960
+bass:note:s5:f2
+wait:960
+bass:note:s5:f3
+wait:960
+bass:note:s5:f5
+wait:960

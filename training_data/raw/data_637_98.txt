@@ -1,0 +1,14 @@
+clean0:note:s1:f7
+clean0:note:s4:f0
+nfx:tie
+wait:480
+clean0:note:s1:f8
+wait:480
+clean0:note:s1:f7
+wait:480
+clean0:note:s1:f5
+wait:480
+clean0:note:s1:f4
+wait:480
+clean0:note:s1:f5
+wait:480

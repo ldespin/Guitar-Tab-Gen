@@ -1,0 +1,12 @@
+distorted0:note:s6:f0
+nfx:tie
+distorted1:note:s6:f0
+nfx:tie
+distorted2:rest
+bass:rest
+wait:1920
+distorted0:note:s6:f0
+nfx:tie
+distorted1:note:s6:f0
+nfx:tie
+wait:1920

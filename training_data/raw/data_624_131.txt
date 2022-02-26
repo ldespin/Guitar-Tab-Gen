@@ -1,0 +1,5 @@
+clean0:note:s5:f0
+nfx:tie
+clean0:note:s6:f-2
+nfx:tie
+wait:2880

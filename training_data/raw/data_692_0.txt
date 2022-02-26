@@ -1,0 +1,6 @@
+measure:repeat_open
+measure:repeat_close:3
+clean0:rest
+clean1:rest
+bass:rest
+wait:3840

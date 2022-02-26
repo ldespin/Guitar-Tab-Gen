@@ -1,0 +1,4 @@
+measure:repeat_open
+distorted0:rest
+leads:note:s5:f3
+wait:3840

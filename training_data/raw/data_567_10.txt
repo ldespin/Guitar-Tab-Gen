@@ -1,0 +1,3 @@
+clean0:note:s3:f2
+clean0:note:s5:f3
+wait:2880

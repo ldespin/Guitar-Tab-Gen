@@ -1,0 +1,9 @@
+distorted0:rest
+distorted1:rest
+distorted2:rest
+wait:1920
+distorted0:rest
+wait:960
+distorted0:note:s4:f7
+nfx:slide:3
+wait:960

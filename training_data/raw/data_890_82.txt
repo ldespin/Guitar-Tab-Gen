@@ -1,0 +1,11 @@
+leads:note:s6:f1
+bass:rest
+wait:480
+leads:note:s5:f3
+wait:480
+leads:note:s4:f5
+leads:note:s5:f3
+nfx:tie
+leads:note:s6:f1
+nfx:tie
+wait:2880

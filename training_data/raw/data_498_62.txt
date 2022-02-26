@@ -1,0 +1,9 @@
+leads:note:s1:f4
+wait:720
+leads:note:s1:f2
+wait:1440
+leads:note:s2:f2
+wait:1440
+leads:note:s2:f2
+nfx:tie
+wait:240

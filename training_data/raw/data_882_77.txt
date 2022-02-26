@@ -1,0 +1,4 @@
+leads:note:s3:f4
+wait:2880
+leads:note:s3:f4
+wait:960

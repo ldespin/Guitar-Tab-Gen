@@ -1,0 +1,12 @@
+leads:note:s1:f0
+clean0:note:s1:f0
+nfx:tie
+clean0:note:s2:f0
+nfx:tie
+wait:960
+leads:note:s2:f3
+leads:note:s1:f3
+wait:960
+leads:note:s2:f1
+leads:note:s1:f1
+wait:960

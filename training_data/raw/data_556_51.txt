@@ -1,0 +1,11 @@
+clean1:note:s1:f1
+clean1:note:s2:f1
+clean1:note:s3:f2
+clean1:note:s4:f3
+clean1:note:s5:f3
+clean1:note:s6:f1
+leads:rest
+drums:note:36
+wait:960
+clean1:rest
+wait:2880

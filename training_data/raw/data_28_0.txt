@@ -1,0 +1,9 @@
+measure:repeat_open
+bass:note:s4:f6
+wait:960
+bass:rest
+wait:960
+bass:note:s4:f6
+wait:960
+bass:note:s4:f6
+wait:960

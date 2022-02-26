@@ -1,0 +1,17 @@
+distorted0:note:s4:f2
+distorted0:note:s5:f2
+distorted0:note:s6:f0
+bass:rest
+wait:480
+distorted0:note:s4:f2
+distorted0:note:s5:f2
+distorted0:note:s6:f0
+wait:480
+distorted0:rest
+wait:960
+distorted0:note:s4:f2
+distorted0:note:s5:f2
+distorted0:note:s6:f0
+wait:480
+distorted0:rest
+wait:1440

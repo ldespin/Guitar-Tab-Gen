@@ -1,0 +1,10 @@
+distorted0:note:s6:f9
+bass:note:s4:f0
+nfx:tie
+wait:960
+distorted0:note:s6:f9
+wait:960
+distorted0:note:s6:f9
+wait:960
+distorted0:note:s6:f9
+wait:960

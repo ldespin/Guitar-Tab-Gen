@@ -1,0 +1,16 @@
+distorted0:note:s4:f0
+nfx:tie
+distorted0:note:s5:f0
+nfx:tie
+distorted0:note:s6:f0
+nfx:tie
+distorted1:rest
+distorted2:rest
+drums:note:42
+wait:960
+drums:note:42
+wait:960
+drums:note:42
+wait:960
+drums:note:42
+wait:960

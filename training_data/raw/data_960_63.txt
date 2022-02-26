@@ -1,0 +1,14 @@
+clean0:rest
+clean1:rest
+pads:note:s7:f0
+nfx:tie
+bfx:tempo_change:100
+pads:note:s1:f0
+nfx:tie
+pads:note:s3:f0
+nfx:tie
+pads:note:s4:f0
+nfx:tie
+pads:note:s5:f0
+nfx:tie
+wait:3840

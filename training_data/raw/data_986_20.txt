@@ -1,0 +1,13 @@
+distorted0:note:s4:f2
+nfx:vibrato
+distorted0:note:s5:f2
+nfx:vibrato
+distorted0:note:s6:f0
+nfx:vibrato
+distorted1:note:s4:f2
+nfx:vibrato
+distorted1:note:s5:f2
+nfx:vibrato
+distorted1:note:s6:f0
+nfx:vibrato
+wait:3840

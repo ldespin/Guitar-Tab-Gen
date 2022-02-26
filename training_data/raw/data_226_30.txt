@@ -1,0 +1,11 @@
+distorted0:note:s6:f0
+nfx:bend:type5
+param:val1:vib0
+param:dur4
+param:val1:vib0
+param:dur4
+param:val0:vib0
+param:dur4
+param:val0:vib0
+distorted1:rest
+wait:3840

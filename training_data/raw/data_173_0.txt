@@ -1,0 +1,17 @@
+clean0:rest
+drums:rest
+bass:rest
+distorted0:rest
+leads:rest
+wait:1920
+clean0:rest
+drums:rest
+wait:480
+drums:rest
+wait:480
+drums:note:40
+nfx:tremoloPicking:duration240
+wait:480
+drums:note:40
+nfx:tremoloPicking:duration240
+wait:480

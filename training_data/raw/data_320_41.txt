@@ -1,0 +1,5 @@
+bass:note:s4:f4
+clean0:rest
+distorted0:rest
+distorted1:rest
+wait:3840

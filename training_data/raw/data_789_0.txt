@@ -1,0 +1,5 @@
+clean0:rest
+clean1:note:s3:f0
+wait:1920
+clean1:note:s3:f0
+wait:1920

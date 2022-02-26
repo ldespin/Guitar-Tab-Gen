@@ -1,0 +1,6 @@
+pads:note:s1:f5
+pads:note:s2:f5
+pads:note:s3:f2
+pads:note:s4:f0
+bfx:fade_in
+wait:3840

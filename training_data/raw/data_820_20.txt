@@ -1,0 +1,4 @@
+pads:note:s4:f13
+wait:1920
+pads:note:s4:f0
+wait:1920

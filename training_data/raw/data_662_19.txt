@@ -1,0 +1,7 @@
+bass:note:s2:f7
+wait:2880
+bass:note:s2:f7
+nfx:tie
+wait:480
+bass:note:s3:f7
+wait:480

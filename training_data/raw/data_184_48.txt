@@ -1,0 +1,9 @@
+drums:note:35
+wait:960
+drums:note:38
+wait:960
+drums:note:35
+wait:960
+drums:note:49
+drums:note:38
+wait:960

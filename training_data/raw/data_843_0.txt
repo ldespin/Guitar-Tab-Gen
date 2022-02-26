@@ -1,0 +1,11 @@
+distorted0:rest
+bfx:tempo_change:120
+distorted1:rest
+pads:note:s3:f7
+pads:note:s5:f5
+pads:note:s6:f-2
+bfx:fade_in
+leads:rest
+bass:rest
+drums:rest
+wait:3840

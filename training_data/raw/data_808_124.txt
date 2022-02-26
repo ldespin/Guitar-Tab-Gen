@@ -1,0 +1,4 @@
+bass:note:s4:f5
+wait:2880
+bass:rest
+wait:960

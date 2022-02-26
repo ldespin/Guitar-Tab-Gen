@@ -1,0 +1,9 @@
+pads:rest
+clean0:rest
+leads:note:s1:f7
+wait:1920
+leads:note:s1:f7
+nfx:tie
+wait:960
+leads:rest
+wait:960

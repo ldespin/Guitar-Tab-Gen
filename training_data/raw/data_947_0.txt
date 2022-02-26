@@ -1,0 +1,16 @@
+leads:note:s2:f6
+wait:480
+leads:note:s1:f8
+wait:480
+leads:note:s1:f9
+wait:480
+leads:note:s3:f10
+wait:480
+leads:note:s1:f8
+wait:480
+leads:note:s1:f9
+wait:480
+leads:note:s3:f10
+wait:480
+leads:note:s1:f18
+wait:480

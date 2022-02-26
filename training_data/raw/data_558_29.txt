@@ -1,0 +1,6 @@
+distorted1:note:s2:f8
+leads:rest
+pads:note:s2:f4
+pads:note:s4:f5
+pads:note:s5:f6
+wait:3840

@@ -1,0 +1,3 @@
+bass:note:s5:f0
+nfx:slide:1
+wait:3840

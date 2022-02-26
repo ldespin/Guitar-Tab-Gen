@@ -1,0 +1,4 @@
+clean0:note:s1:f14
+wait:2880
+clean0:rest
+wait:960

@@ -1,0 +1,5 @@
+leads:note:s1:f1
+clean0:rest
+wait:480
+leads:note:s1:f0
+wait:480

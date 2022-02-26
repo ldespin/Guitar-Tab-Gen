@@ -1,0 +1,4 @@
+artist:amorphis
+downtune:-2
+tempo:170
+start

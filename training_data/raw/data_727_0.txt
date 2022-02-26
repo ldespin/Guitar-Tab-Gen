@@ -1,0 +1,16 @@
+measure:repeat_open
+distorted0:rest
+distorted1:rest
+wait:240
+distorted0:note:s6:f3
+wait:960
+distorted0:note:s6:f5
+wait:960
+distorted0:note:s6:f6
+wait:960
+distorted0:note:s6:f3
+nfx:tie
+wait:480
+distorted0:note:s6:f3
+nfx:tie
+wait:240

@@ -1,0 +1,17 @@
+pads:note:s1:f13
+pads:note:s2:f15
+pads:note:s3:f15
+leads:note:s1:f18
+pads:note:s4:f3
+wait:1440
+leads:note:s1:f13
+wait:480
+leads:note:s1:f13
+nfx:slide:2
+wait:240
+leads:note:s1:f12
+wait:720
+leads:note:s1:f13
+wait:480
+leads:note:s1:f18
+wait:480

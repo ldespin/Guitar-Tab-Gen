@@ -1,0 +1,17 @@
+leads:rest
+distorted0:rest
+distorted1:rest
+distorted2:rest
+drums:note:46
+nfx:staccato
+bass:rest
+wait:960
+drums:note:46
+nfx:staccato
+wait:960
+drums:note:46
+nfx:staccato
+wait:960
+drums:note:46
+nfx:staccato
+wait:960

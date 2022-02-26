@@ -1,0 +1,8 @@
+measure:repeat_close:1
+distorted0:note:s6:f0
+wait:480
+distorted0:note:s6:f0
+wait:2880
+distorted0:note:s6:f0
+nfx:tie
+wait:480

@@ -1,0 +1,12 @@
+clean0:rest
+wait:960
+clean0:rest
+wait:960
+clean0:rest
+wait:960
+clean0:rest
+wait:960
+clean0:rest
+wait:960
+clean0:rest
+wait:960

@@ -1,0 +1,10 @@
+bass:note:s4:f0
+nfx:tie
+wait:1920
+bass:note:s4:f0
+nfx:tie
+wait:960
+bass:note:s5:f3
+wait:480
+bass:note:s5:f0
+wait:480

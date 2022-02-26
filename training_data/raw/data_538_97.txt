@@ -1,0 +1,13 @@
+distorted0:note:s4:f14
+nfx:slide:1
+wait:960
+distorted0:note:s4:f14
+nfx:ghost_note
+nfx:slide:1
+wait:960
+distorted0:note:s4:f14
+nfx:ghost_note
+nfx:slide:1
+wait:960
+distorted0:rest
+wait:960

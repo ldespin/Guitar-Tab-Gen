@@ -1,0 +1,17 @@
+leads:rest
+distorted0:note:s5:f3
+distorted0:note:s6:f3
+distorted1:note:s5:f7
+bass:note:s4:f3
+drums:note:49
+drums:note:36
+wait:960
+drums:note:45
+drums:note:36
+bfx:stroke:2:8
+wait:960
+leads:rest
+drums:note:47
+drums:note:36
+bfx:stroke:2:8
+wait:960

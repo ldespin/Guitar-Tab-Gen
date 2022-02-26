@@ -1,0 +1,7 @@
+distorted0:note:s6:f0
+nfx:tie
+wait:1440
+distorted0:rest
+wait:1920
+distorted0:rest
+wait:480

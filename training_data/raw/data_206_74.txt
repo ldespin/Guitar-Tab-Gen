@@ -1,0 +1,2 @@
+drums:rest
+wait:3840

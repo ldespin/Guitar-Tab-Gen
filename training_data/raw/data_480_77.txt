@@ -1,0 +1,17 @@
+distorted0:rest
+distorted1:note:s4:f9
+pads:note:s4:f9
+bass:note:s3:f2
+wait:1440
+distorted1:note:s4:f9
+pads:note:s4:f9
+wait:480
+distorted1:note:s3:f11
+pads:note:s3:f11
+wait:480
+distorted1:note:s3:f9
+pads:note:s3:f9
+wait:480
+distorted1:note:s3:f11
+pads:note:s3:f11
+wait:960

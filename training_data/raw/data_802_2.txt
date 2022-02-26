@@ -1,0 +1,5 @@
+pads:rest
+distorted0:rest
+drums:note:44
+clean0:rest
+wait:3840

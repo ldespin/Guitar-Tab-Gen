@@ -1,0 +1,4 @@
+leads:note:s6:f0
+pads:note:s6:f0
+nfx:tie
+wait:3840

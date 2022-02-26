@@ -1,0 +1,4 @@
+artist:alice_cooper
+downtune:-2
+tempo:140
+start
