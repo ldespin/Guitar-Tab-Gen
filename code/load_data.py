@@ -4,7 +4,7 @@ import keras
 from tensorflow.keras.utils import Sequence
 import vectorize_data
 
-def get_tokens(data_path="../training_data/raw",guitar_only="on"):
+def get_tokens(data_path="../training_data/raw",limit_instr = "on", instr= "distorted0", guitar_only="on"):
     measures = os.listdir(data_path)
 
     target_tokens = []
@@ -17,10 +17,17 @@ def get_tokens(data_path="../training_data/raw",guitar_only="on"):
         input_text_guitar = []
     
         for token in input_text:
-                if guitar_only=="on" and "bass" not in token and "drums" not in token and "nfx" not in token:
+
+                if limit_instr=="on":
+                    if instr in token or "wait" in token:
+                        input_text_guitar.append(token)
+                        if token not in target_tokens:
+                            target_tokens.append(token)
+                elif guitar_only=="on" and "bass" not in token and "drums" not in token and "nfx" not in token:
                     input_text_guitar.append(token)
                     if token not in target_tokens:
                         target_tokens.append(token)
+
                 elif guitar_only=="off":
                     if token not in target_tokens:
                         target_tokens.append(token)
@@ -29,11 +36,11 @@ def get_tokens(data_path="../training_data/raw",guitar_only="on"):
 
     target_tokens = sorted(target_tokens)
     
-    tokens_file = open("../tokens/tokens_list.txt","w")
+    tokens_file = open(f"../tokens/tokens_list_{instr}.txt","w")
     for token in target_tokens:
         tokens_file.write(token)
 
-    max_tokens_file = open("../tokens/max_tokens.txt","w")
+    max_tokens_file = open(f"../tokens/max_tokens_{instr}.txt","w")
     max_tokens_file.write(str(max_tokens))
 
     return target_tokens, max_tokens
@@ -85,6 +92,7 @@ class DataGenerator(Sequence):
 
             target_file = open(f'../training_data/raw/data_{ID[0]}_{ID[1]+1}.txt')
             target_text = list(target_file)
+            
 
             encoder_input_text, decoder_input_text, decoder_target_text = vectorize_data.vectorize_training(input_text, target_text)
             encoder_input_data.append(encoder_input_text)

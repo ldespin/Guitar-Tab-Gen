@@ -32,7 +32,7 @@ def train_lstm(training_generator, num_tokens, epochs=30, latent_dim=256):
     # `encoder_input_data` & `decoder_input_data` into `decoder_target_data`
     model = keras.Model([encoder_inputs, decoder_inputs], decoder_outputs, name="model")
 
-    log_dir = "logs/fit_lstm/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+    log_dir = "logs/fit_lstm_distorted/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)
 
 
@@ -45,4 +45,4 @@ def train_lstm(training_generator, num_tokens, epochs=30, latent_dim=256):
         callbacks=[tensorboard_callback]
     )
     # Save model
-    model.save("s2s")
+    model.save("s2s_distorted0")

@@ -1,9 +1,9 @@
 import numpy as np
 import os
 
-def vectorize_training(input_text, target_text,guitar_only="on"):
-    target_tokens = list(open("../tokens/tokens_list.txt"))
-    max_tokens = int(list(open("../tokens/max_tokens.txt"))[0])
+def vectorize_training(input_text, target_text,limit_intr ="on", instr = "distorted0", guitar_only="on"):
+    target_tokens = list(open(f"../tokens/tokens_list_{instr}.txt"))
+    max_tokens = int(list(open(f"../tokens/max_tokens_ 'instr.txt"))[0])
     num_tokens = len(target_tokens)
     token_index = dict([(token, i) for i, token in enumerate(target_tokens)])
 
@@ -17,7 +17,11 @@ def vectorize_training(input_text, target_text,guitar_only="on"):
             (max_tokens, num_tokens), dtype="float32"
     )
 
-    if guitar_only=="on":
+    if limit_intr=="on":
+        input_text = remove_non_instr(input_text, instr)
+        target_text = remove_non_instr(target_text, instr)
+
+    elif guitar_only=="on":
         input_text = remove_non_guitar(input_text)
         target_text = remove_non_guitar(target_text)
     
@@ -37,6 +41,13 @@ def remove_non_guitar(text):
     new_text = []
     for token in text:
         if "bass" not in token and "drums" not in token and "nfx" not in token:
+            new_text.append(token)
+    return new_text
+
+def remove_non_instr(text, instr):
+    new_text = []
+    for token in text:
+        if instr in token or "wait" in token:
             new_text.append(token)
     return new_text
 

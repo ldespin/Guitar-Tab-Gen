@@ -5,7 +5,9 @@ import os
 
 if __name__=="__main__":
 
-    target_tokens, max_tokens = get_tokens()
+    instr = "distorted0"
+
+    target_tokens, max_tokens = get_tokens(instr=instr)
 
     num_tokens = len(target_tokens)
 
@@ -14,16 +16,20 @@ if __name__=="__main__":
     n=999
     training_ids = []
     for i in range(999):
+        instr_present = False
         song = []
         for file in measures:
             if f"_{i}_" in file:
                 song.append(file)
-        for j in range(len(song)-1):
-            training_ids.append([i,j])
+                f = open("file","r")
+                for token in f.list():
+                    if instr in token:
+                        instr_present = True
+        if instr_present:
+            for j in range(len(song)-1):
+                training_ids.append([i,j])
         
     training_generator = DataGenerator(training_ids)
-
-    
 
     lstm_model.train_lstm(training_generator, num_tokens)
 
