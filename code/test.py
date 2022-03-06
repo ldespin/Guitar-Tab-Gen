@@ -31,10 +31,10 @@ if __name__=="__main__":
             input_texts.append(input_text)
             target_texts.append(target_text)
 
-    tokens = list(open("../tokens/tokens_list.txt"))
+    tokens = list(open("../tokens/tokens_list_distorted0.txt"))
     num_tokens = len(tokens)
     max_encoder_seq_length = int(list(open("../tokens/max_encoder_seq_length.txt"))[0])
-    model = keras.models.load_model("s2s")
+    model = keras.models.load_model("s2s_distorted0")
 
     encoder_inputs = model.input[0]  # input_1
     encoder_outputs, state_h_enc, state_c_enc = model.layers[2].output  # lstm_1
@@ -146,15 +146,15 @@ if __name__=="__main__":
 
 
     for seq_index in range(100):
-        f_input = open(f"../results_base/seq_{seq_index}_input.txt",'w')
-        f_output_or = open(f"../results_base/seq_{seq_index}_output_or.txt",'w')
-        f_output_pred = open(f"../results_base/seq_{seq_index}_output_pred.txt",'w')
+        f_input = open(f"../results_distorted/seq_{seq_index}_input.txt",'w')
+        f_output_or = open(f"../results_distorted/seq_{seq_index}_output_or.txt",'w')
+        f_output_pred = open(f"../results_distorted/seq_{seq_index}_output_pred.txt",'w')
         input_seq = vectorize_data.vectorize_test(input_texts[seq_index],tokens, max_encoder_seq_length)
         dur= get_duration(input_texts[seq_index])
         decoded_measure = decode_sequence(np.array([input_seq]),dur)
-        f_input.write('artist:unknown\ndowntune:0\ntempo:120\nstart\nnewmeasure\n')
-        f_output_or.write('artist:unknown\ndowntune:0\ntempo:120\nstart\nnewmeasure\n')
-        f_output_pred.write('artist:unknown\ndowntune:0\ntempo:120\nstart\nnewmeasure\n')
+        f_input.write('artist:unknown\ndowntune:0\ntempo:120\nstart\nnew_measure\n')
+        f_output_or.write('artist:unknown\ndowntune:0\ntempo:120\nstart\nnew_measure\n')
+        f_output_pred.write('artist:unknown\ndowntune:0\ntempo:120\nstart\nnew_measure\n')
         for token in input_texts[seq_index]:
             f_input.write(token)
 

@@ -3,7 +3,7 @@ import os
 
 def vectorize_training(input_text, target_text,limit_intr ="on", instr = "distorted0", guitar_only="on"):
     target_tokens = list(open(f"../tokens/tokens_list_{instr}.txt"))
-    max_tokens = int(list(open(f"../tokens/max_tokens_ 'instr.txt"))[0])
+    max_tokens = int(list(open(f"../tokens/max_tokens_{instr}.txt"))[0])
     num_tokens = len(target_tokens)
     token_index = dict([(token, i) for i, token in enumerate(target_tokens)])
 

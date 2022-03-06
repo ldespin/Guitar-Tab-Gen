@@ -2,7 +2,7 @@ artist:unknown
 downtune:0
 tempo:120
 start
-newmeasure
+new_measure
 distorted0:note:s3:f6
 distorted0:note:s4:f7
 distorted0:note:s5:f4

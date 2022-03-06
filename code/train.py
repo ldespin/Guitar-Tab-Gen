@@ -21,8 +21,8 @@ if __name__=="__main__":
         for file in measures:
             if f"_{i}_" in file:
                 song.append(file)
-                f = open("file","r")
-                for token in f.list():
+                f = open(f"../training_data/raw/{file}","r")
+                for token in f:
                     if instr in token:
                         instr_present = True
         if instr_present:
